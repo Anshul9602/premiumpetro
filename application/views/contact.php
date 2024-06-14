@@ -106,7 +106,7 @@ defined('BASEPATH') or exit('No direct script access allowed');
 					<div class="fw-divider-space divider-xl-160 divider-lg-130 divider-md-90 divider-60"></div>
 					<div class="media text-center text-sm-left">
 						<div class="icon-styled fs-60 color-main">
-							<i class="fa fa-map-marker" aria-hidden="true"></i>
+							<i class="fa fa-map-marker-alt" aria-hidden="true"></i>
 						</div>
 						<div class="media-body">
 							<h6 class="">

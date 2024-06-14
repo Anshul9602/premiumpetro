@@ -92,7 +92,12 @@ defined('BASEPATH') or exit('No direct script access allowed');
         .accordion {
             margin-bottom: 16px;
         }
+         .faq-tab {
+font-size: 14px !important;
+margin: 0 10px 0 0!important;
+        }
     }
+    
 
     .question-wrapper {
         display: flex;
@@ -143,7 +148,7 @@ defined('BASEPATH') or exit('No direct script access allowed');
 <hr>
 <section class="py-60" style="padding-bottom:160px;">
    
-    <div class="container text-control-1">
+    <div class="container text-control-1 faqq">
         <h3 class="text-center mb-4">FAQs</h3>
         <div class="d-flex justify-content-md-around justify-content-between mb-4">
             <h6 class="m-0 faq-tab" data-open="company">RELATED TO COMPNAY</h6>

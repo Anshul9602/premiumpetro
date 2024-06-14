@@ -123,12 +123,12 @@ defined('BASEPATH') or exit('No direct script access allowed');
 	}
 
 	.timeline .container.right .content {
-		padding: 40px 30px 30px 90px;
+		padding: 30px 30px 30px 90px;
 		border-radius: 500px 0 0 500px;
 	}
 
 	.timeline .container .content h2 {
-		margin: 0 0 10px 0;
+		margin: 0 0 0px 0;
 		font-size: 18px;
 		font-weight: normal;
 		color: #fff;
@@ -154,7 +154,7 @@ defined('BASEPATH') or exit('No direct script access allowed');
 		.timeline .container {
 			width: 100%;
 			padding-left: 120px;
-			padding-right: 30px;
+			padding-right: 15px;
 		}
 
 		.co1 h2 {
@@ -178,7 +178,7 @@ defined('BASEPATH') or exit('No direct script access allowed');
 
 		.timeline .container.left::before,
 		.timeline .container.right::before {
-			left: 100px;
+			left: 85px;
 			border-color: transparent #006E51 transparent transparent;
 		}
 
@@ -191,13 +191,13 @@ defined('BASEPATH') or exit('No direct script access allowed');
 		.timeline .container.left .icon,
 		.timeline .container.right .icon {
 			right: auto;
-			left: 146px;
+			left: 135px;
 		}
 
 		.timeline .container.left .content,
 		.timeline .container.right .content {
 
-			padding: 6px 5px 10px 70px;
+			padding: 15px 5px 15px 70px;
 			border-radius: 500px 0 0 500px;
 		}
 
@@ -205,6 +205,21 @@ defined('BASEPATH') or exit('No direct script access allowed');
 	}
 
 	@media (max-width: 767.98px) {
+		.timeline .container .icon {
+    position: absolute;
+    display: inline-block;
+    width: 35px;
+    height: 35px;
+    padding: 8px 0;
+    top: calc(50% - 18px);
+    background: #fff;
+    border: 2px solid #006E51;
+    border-radius: 40px;
+    text-align: center;
+    font-size: 16px;
+    color: #09445a;
+    z-index: 1;
+}
 
 		.timeline .container.left .date,
 		.timeline .container.right .date {

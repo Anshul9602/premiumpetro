@@ -7,8 +7,15 @@ defined('BASEPATH') or exit('No direct script access allowed');
 	.card{
 		box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 	}
+	@media (max-width: 767.98px) {
+.new_f{
+	font-size: 14px !important;
+    line-height: normal;
+
+}
+	}
 </style>
-<section class="page_title ds s-pb-xl-80  s-pb-lg-100  s-pb-md-90 s-pt-md-190 s-pt-180 s-pb-60"
+<section class="page_title ds s-pb-xl-80  s-pb-lg-100  s-pb-md-90 s-pt-md-250 s-pt-180 s-pb-60"
 	style="background-image:url('images/Blog-Page-Banner_4.jpg'); background-size:cover!important; background-repeat:no-repeat!important; background-position:center!important;">
 	<div class="container">
 		<div class="row">
@@ -91,12 +98,12 @@ defined('BASEPATH') or exit('No direct script access allowed');
 		</span>
 	</h4>
 	<?php for ($i = 0; $i < sizeof($posts); $i++) { ?>
-		<div class="media row" style="align-items: center;">
-			<a class="media-image col-md-4 col-5 p-0" href="<?php echo base_url() . 'blog/post/' . $posts[$i]['url'] ?>" style="border-radius: 10px;    overflow: hidden;">
+		<div class=" row m-0 pt-4" style="align-items: center;">
+			<a class="media-image col-md-4 col-5 p-0 " href="<?php echo base_url() . 'blog/post/' . $posts[$i]['url'] ?>" style="border-radius: 10px;    overflow: hidden;">
 				<img src="<?php echo $posts[$i]['image'] ?>" alt="img" width="100%">
 			</a>
 			<div class=" col-md-8 col-7">
-				<h6 class="mb-2" >
+				<h6 class="mb-2 new_f" >
 					<a href="<?php echo base_url() . 'blog/post/' . $posts[$i]['url'] ?>">
 						<?php echo substr(strip_tags($posts[$i]['heading']), 0, 150) ?>
 					</a>
