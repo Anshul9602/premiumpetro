@@ -15,6 +15,7 @@ defined('BASEPATH') or exit('No direct script access allowed');
 		width: 50%;
 	}
 	.ttte .row{
+		margin-top: 100px;
 	align-items: center;
 	justify-content: space-between;
 	}
@@ -86,7 +87,7 @@ defined('BASEPATH') or exit('No direct script access allowed');
 
 
 		</div>
-		<div class="row mt-md-5 mt-4">
+		<div class="row">
 			<div class="col-md-4 mt-md-3">
 				<div style="    border-radius: 20px; overflow: hidden;">
 					<img src="<?php echo base_url() ?>images/products/bitumen-vg-30.jpg" alt="img">
@@ -108,7 +109,7 @@ defined('BASEPATH') or exit('No direct script access allowed');
 				</div>
 			</div>
 		</div>
-		<div class="row mt-md-5 mt-4">
+		<div class="row">
 
 			<div class="col-md-6 ">
 				<div class="step-wrap__text">
@@ -131,7 +132,7 @@ defined('BASEPATH') or exit('No direct script access allowed');
 
 			</div>
 		</div>
-		<div class="row mt-md-5 mt-4">
+		<div class="row">
 
 
 			<div class="col-md-4 mt-md-3">
@@ -158,7 +159,7 @@ defined('BASEPATH') or exit('No direct script access allowed');
 				</div>
 			</div>
 		</div>
-		<div class="row mt-md-5 mt-4">
+		<div class="row">
 
 
 
@@ -186,7 +187,7 @@ defined('BASEPATH') or exit('No direct script access allowed');
 
 			</div>
 		</div>
-		<div class="row mt-md-5 mt-4">
+		<div class="row">
 
 			<div class="col-md-4 mt-md-3">
 				<div style="    border-radius: 20px; overflow: hidden;">
