@@ -2,14 +2,6 @@
 defined('BASEPATH') or exit('No direct script access allowed');
 ?>
 <style>
-	*,
-	*::before,
-	*::after {
-		box-sizing: border-box;
-	}
-
-	
-
 	.timeline {
 		position: relative;
 		width: 100%;
@@ -164,10 +156,12 @@ defined('BASEPATH') or exit('No direct script access allowed');
 			font-size: 8px !important;
 			margin: 0 0 5px 0 !important;
 		}
+
 		.d1 {
 			font-size: 8px !important;
 			margin: 0 0 5px 0 !important;
 		}
+
 		.timeline .container.right {
 			left: 0%;
 		}
@@ -197,7 +191,7 @@ defined('BASEPATH') or exit('No direct script access allowed');
 
 		.timeline .container.left .content,
 		.timeline .container.right .content {
-			
+
 			padding: 6px 5px 10px 70px;
 			border-radius: 500px 0 0 500px;
 		}
@@ -214,7 +208,7 @@ defined('BASEPATH') or exit('No direct script access allowed');
 		}
 	}
 </style>
-<section class="page_title ds  s-pb-xl-80  s-pb-lg-100  s-pb-md-90 s-pt-md-190 s-pt-180 s-pb-60"
+<section class="page_title ds  s-pb-xl-80  s-pb-lg-100  s-pb-md-90 s-pt-md-250 s-pt-180 s-pb-60"
 	style="background-image:url('images/AboutBanner.jpg'); background-size:cover!important; background-repeat:no-repeat!important; background-position:center!important;">
 	<div class="container">
 		<div class="row" style='margin:0!important;'>
@@ -240,189 +234,110 @@ defined('BASEPATH') or exit('No direct script access allowed');
 
 <section class="ls s-py-xl-160 s-py-lg-130 s-py-md-90 s-py-60">
 	<div class="container" style="padding:100px 0 30px 0!important;">
-		<div class="row justify-content-around" style='margin:0!important;'>
-			<div class="col-12 col-lg-3 text-center" style="padding:30px;">
-				<h2 class="special-heading text-center">
-					<span class="text-capitalize">
+		<div class="row " style='margin:0!important;justify-content: space-between;'>
+			<div class="col-md-6 text-start" style="padding:30px;">
+				<h2 class="special-heading text-start">
+					<span class="text-capitalize" style="color:#000000;">
 						WHO WE ARE
 					</span>
+
+
 				</h2>
 
-			</div>
-			<div class="col-12 col-lg-6" style="padding:30px;">
-				<div class="divider-35 hidden-above-lg"></div>
-				<div class="divider--5"></div>
-
-				<p style="text-align: justify;">
+				<p class="mt-md-3" style="text-align: justify;color:#000000;">
 					Our firm is manufacturing all types of Emulsion and Modified Bitumen and
 					importing Bitumen (both Bulk and Packed) from Middle East countries.
 					Premium Petro Products is also the Empanelled Supplier authorized by the Rajasthan PWD.
 				</p>
 
-				<p class="excerpt" style="text-align: justify;">
+				<p style="text-align: justify;color:#000000;">
 
-					<i> We are now PWD Empanelled authorized Bitumen Supplier by the Government of Uttarakhand. </i>
+					We are now PWD Empanelled authorized Bitumen Supplier by the Government of Uttarakhand.
 
 				</p>
 
-				<p class="excerpt" style="text-align: justify;">
+				<p style="text-align: justify;color:#000000;">
 					Source Imported Viscosity Grade Bitumen, Penetration Grade Bitumen, Bitumen Emulsion And More, At
 					Fair Prices!
 				</p>
-				<h6 style="margin-top: 0px;">We are among 5th largest in packed bitumen in India.</h6>
+				<h6 style="margin-top: 0px;color:#000000;">We are among 5th largest in packed bitumen in India.</h6>
 
 				<div class="divider-30"></div>
 
 				<a download="" target="_blank" href="<?php echo base_url(); ?>/assets/PPP Company Profile.pdf"
 					class="btn btn-gradient medium-btn" href="<?php echo base_url() ?>aboutus">Download Brochure</a>
+
 			</div>
-			<div class="col-12 col-lg-3 text-sm-left text-center d-none">
-				<div class="divider-35 hidden-above-lg"></div>
-				<div class="signature">
-					<div class="signature-image">
-						<img src="images/testimonial2.jpg" alt="img">
-					</div>
-					<div class="signature-content">
-						<span>Diana T. Davis</span>
-						<img src="images/signature.png" alt="img">
-					</div>
-				</div>
+			<div class="col-md-5" style="padding:30px;">
+				<img src="assets/img/who_we.png" alt="" width="100%">
+
 			</div>
+
 		</div>
 	</div>
 </section>
 
-<section class="ds container-px-xl-0 d-none ">
-	<div class="container-fluid">
-		<div class="row" style='margin:0!important;'>
-			<div
-				class="col-lg-3 col-12 px-xl-50 ds column-overlay d-flex flex-column align-items-center justify-content-center text-center column-video">
-				<div class="fw-divider-space divider-xl-160 divider-lg-130 divider-md-90 divider-60"></div>
-				<h2 class="special-heading text-center">
-					<span class="text-capitalize">
-						Why Choose Us
-					</span>
-				</h2>
-				<div class="divider-30"></div>
-
-
-				<div class="divider-30"></div>
-
-				<div class="fw-divider-space divider-xl-135 divider-lg-95 divider-md-65 divider-35"></div>
-			</div>
-			<div class="col-lg-9 p-0 col-12">
-				<div class="step-gorizontal">
-					<div class="step">
-						<div class="step-number">
-							<h3>
-								01.
-							</h3>
-						</div>
-						<h6>
-							AUTHORISED BY RAJASTHAN PWD
-						</h6>
-
-					</div>
-					<div class="step">
-						<div class="step-number">
-							<h3>
-								02.
-							</h3>
-						</div>
-						<h6>
-							TOP QUALITY BITUMEN
-						</h6>
-
-					</div>
-					<div class="step">
-						<div class="step-number">
-							<h3>
-								03.
-							</h3>
-						</div>
-						<h6>
-							BEST CUSTOMER SERVICES
-						</h6>
-
-					</div>
-				</div>
-			</div>
-		</div>
-	</div>
-</section>
 
 <section class="ls s-py-xl-160 text-sm-left text-center s-py-lg-130 s-py-md-90 s-py-60 c-gutter-60" id="our-vision">
-	<div class="container" style="padding:100px 0 30px 0!important;">
-		<div class="row" style='margin:0 0 80px 0!important;'>
-			<div class="col-lg-6 col-12">
-				<h2 class="special-heading text-sm-left text-center">
-					<span class="text-capitalize">
-						Our Vision
-					</span>
-				</h2>
-				<div class="divider-line bg-maincolor"></div>
-				<div class="fw-divider-space divider-30"></div>
-				<p style="text-align: justify;">
-					To build a brand which is synonymous with delivery of ‘Premium’ quality bitumen and bituminous
-					products with primary focus on customer satisfaction. To play a vital role in bitumen supplies for
-					road construction and upgradation activities in India and its neighbourhood.
-				</p>
-
-
+	<div class="container" style="padding:10px 0 30px 0!important;">
+		<div class="row" >
+			<div class="col-md-6">
+				<div class="card text-start"
+					style="background-color: #F4F4F4;border-radius: 26.5px;    overflow: hidden;">
+					<img class="card-img-top" src="<?php echo base_url('assets/img/Vision.jpg'); ?>" alt="img" />
+					<div class="card-body">
+						<h4 class="mt-2 card-title text-sm-left text-center">
+							<span class="text-capitalize" style="color:#000000;">
+								Our Vision
+							</span>
+						</h4>
+						<p class=" mt-2 card-text text-start pb-2" style="min-height:130px;    text-align: start;color:#000000;">To build a
+							brand which is synonymous with delivery of ‘Premium’ quality bitumen and bituminous
+							products with primary focus on customer satisfaction. To play a vital role in bitumen
+							supplies for
+							road construction and upgradation activities in India and its neighbourhood.</p>
+					</div>
+				</div>
 			</div>
-			<div class="col-lg-6 col-12">
-				<br /> <br />
-				<img src="<?php echo base_url('assets/img/Vision.jpg'); ?>" alt="img" class="img-responsive">
+			<div class="col-md-6">
+				<div class="card text-start"
+					style="background-color: #F4F4F4;border-radius: 26.5px;    overflow: hidden;">
+					<img class="card-img-top" src="<?php echo base_url('assets/img/mission.png'); ?>" alt="img" />
+					<div class="card-body">
+						<h4 class="mt-2 card-title text-sm-left text-center">
+							<span class="text-capitalize" style="color:#000000;">
+								Our Mission
+							</span>
+						</h4>
+						<p class=" mt-2 card-text text-start pb-2" style="    text-align: start;color:#000000;min-height:130px;">To cater the needs of dynamic roads and highways construction sector through continuous upgradation
+							of skills, technologies, performance, and capabilities to attain best quality and service benchmarks
+							in bitumen industry.</p>
+					</div>
+				</div>
 			</div>
 		</div>
 
-		<div class="row" style='margin: 0!important;'>
-
-			<div class="col-lg-6 col-12 order-lg-last">
-				<h2 class="special-heading text-sm-left text-center">
-					<span class="text-capitalize">
-						Our Mission
-					</span>
-				</h2>
-				<div class="divider-line bg-maincolor"></div>
-				<div class="fw-divider-space divider-30"></div>
-				<p style="text-align: justify;">
-					To cater the needs of dynamic roads and highways construction sector through continuous upgradation
-					of skills, technologies, performance, and capabilities to attain best quality and service benchmarks
-					in bitumen industry.
-				</p>
-
-
-			</div>
-
-			<div class="col-lg-6 col-12 ">
-				<br /> <br />
-				<img src="<?php echo base_url('assets/img/mission.png'); ?>" alt="img" class="img-responsive">
-			</div>
-
-
-
-
-		</div>
+	
 
 
 
 	</div>
 </section>
 
-<section class="ls s-py-xl-160 text-sm-left text-center s-py-lg-130 s-py-md-90 s-py-60 c-gutter-60" id="our-history">
-	<div class="container" style="padding:50px 0 30px 0!important;">
-		<div class="row" style='margin:0!important;'>
+
+<section class="ls s-py-xl-160 text-sm-left text-center s-py-lg-130 s-py-md-90 s-py-60 c-gutter-60" id="our-history" style="background-color: #09202F;">
+	<div class="container" style="padding:100px 0!important;">
+		<div class="row" style='margin:0!important;    align-items: center;'>
 
 			<div class="col-lg-6 col-12">
-				<h2 class="special-heading text-sm-left text-center">
+				<h2 class="special-heading text-sm-left text-center text-white">
 					<span class="text-capitalize">
 						Our History
 					</span>
 				</h2>
-				<div class="divider-line bg-maincolor"></div>
+				
 				<div class="fw-divider-space divider-30"></div>
-				<p style="text-align: justify;">
+				<p class="text-white" style="text-align: justify;">
 					Our firm supplies all types of Viscosity grade Imported bitumen both in bulk and packed form.
 					Incorporated in the year 2017, Premium Petro Products' Headquarters is located in Jaipur with its
 					presence in Jodhpur, Pipavav, Kandla and Mundra. The Quality Philosophy is ingrained in Team PREMIUM
@@ -436,8 +351,8 @@ defined('BASEPATH') or exit('No direct script access allowed');
 
 
 			<div class="col-lg-6 col-12">
-				<br /> <br />
-				<img src="<?php echo base_url('images/01.jpg'); ?>" alt="img" class="img-responsive">
+			
+				<img src="<?php echo base_url('images/our_story.png'); ?>" alt="img" class="img-responsive">
 			</div>
 
 
@@ -566,7 +481,7 @@ defined('BASEPATH') or exit('No direct script access allowed');
 							<h2>Kandla (Gujarat) Plant</h2>
 
 						</div>
-					</div> 	
+					</div>
 					<div class="container right">
 						<div class="date d1">Jun<br>2021</div>
 						<i class="icon fa fa-home"></i>
@@ -582,7 +497,7 @@ defined('BASEPATH') or exit('No direct script access allowed');
 							<h2>Barmer (Rajasthan) Plant</h2>
 
 						</div>
-					</div> 
+					</div>
 					<div class="container right">
 						<div class="date d1">Jun<br>2023</div>
 						<i class="icon fa fa-home"></i>
@@ -590,7 +505,7 @@ defined('BASEPATH') or exit('No direct script access allowed');
 							<h2>Parbatsar (Nagaur) Plant</h2>
 
 						</div>
-					</div>	
+					</div>
 				</div>
 			</div>
 		</div>

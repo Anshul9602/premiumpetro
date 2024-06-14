@@ -76,9 +76,9 @@ $query_builder = TRUE;
 $db['default'] = array(
 	'dsn'	=> '',
 	'hostname' => 'localhost',
-	'username' => 'webuser_premi',
-	'password' => 'EtPCuP{^:I5)&Iiw',
-	'database' => 'webuser_ppp',
+	'username' => 'root',
+	'password' => '',
+	'database' => 'pri',
 
 	// 'username' => 'root',
 	// 'password' => '',
