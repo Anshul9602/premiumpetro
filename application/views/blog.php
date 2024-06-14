@@ -1,7 +1,8 @@
 <?php
 defined('BASEPATH') or exit('No direct script access allowed');
 ?>
-<section class="page_title ds s-pb-xl-80  s-pb-lg-100  s-pb-md-90 s-pt-md-190 s-pt-180 s-pb-60" style="background-image:url('images/Blog-Page-Banner_4.jpg'); background-size:cover!important; background-repeat:no-repeat!important; background-position:center!important;">
+<section class="page_title ds s-pb-xl-80  s-pb-lg-100  s-pb-md-90 s-pt-md-190 s-pt-180 s-pb-60"
+	style="background-image:url('images/Blog-Page-Banner_4.jpg'); background-size:cover!important; background-repeat:no-repeat!important; background-position:center!important;">
 	<div class="container">
 		<div class="row">
 			<div class="col-md-12 text-center">
@@ -28,49 +29,100 @@ defined('BASEPATH') or exit('No direct script access allowed');
 <section class="ls ms s-pt-xl-160 s-pb-xl-280 s-pt-lg-130 s-pb-lg-250 s-py-md-90 s-py-60">
 	<div class="container">
 		<div class="row c-gutter-60">
+			<div class="col-md-6">
+				<?php for ($i = 0; $i < sizeof($posts); $i++) { ?>
+				<div class="card text-center mt-3"
+					style="background-color: #F4F4F4;border-radius: 26.5px;    overflow: hidden;">
+					<a class="card-img-top" href="<?php echo base_url() . 'blog/post/' . $posts[$i]['url'] ?>">
+						<img src="<?php echo base_url() . $posts[$i]['image'] ?>" alt="img">
+					</a>
+					<div class="card-body">
+						<div class="entry-meta">
+							<div class="byline">
+								<span class="date">
+									<a href="<?php echo base_url() . 'blog/post/' . $posts[$i]['url'] ?>"
+										rel="bookmark">
+										<time class="published entry-date" datetime="2019-04-09T12:23:09+00:00">
+											<?php echo $posts[$i]['date'] ?>
+										</time>
+									</a>
+								</span>
+								<span class="author vcard">
+									<a class="url fn n" href="#" rel="author"><span>by</span>
+										<?php echo $posts[$i]['author'] ?>
+									</a>
+								</span>
+							</div>
+						</div>
+						<h4 class="mt-2 card-title text-sm-left text-center" style="">
+
+							<a class="text-capitalize" style="color:#000000;text-align: center;"
+								href="<?php echo base_url() . 'blog/post/' . $posts[$i]['url'] ?>" rel="bookmark">
+								<?php echo $posts[$i]['heading'] ?>
+							</a>
+
+						</h4>
+						<p class=" mt-2 card-text text-start pb-2"
+							style="    text-align: center;color:#000000;">
+							<?php echo substr(strip_tags($posts[$i]['content']), 0, 150) ?>...
+						</p>
+						<a class="btn btn-gradient big-btn"
+							href="<?php echo base_url() . 'blog/post/' . $posts[$i]['url'] ?>">read more</a>
+					</div>
+				</div>	<?php } ?>
+
+			</div>
+
 
 			<main class="col-lg-7 col-xl-8">
 
 				<?php for ($i = 0; $i < sizeof($posts); $i++) { ?>
-					<article class="vertical-item ls text-center rounded post type-post status-publish format-standard has-post-thumbnail">
-						<div class="item-media post-thumbnail">
-							<a href="<?php echo base_url() . 'blog/post/' . $posts[$i]['url'] ?>">
-								<img src="<?php echo base_url() . $posts[$i]['image'] ?>" alt="img">
-							</a>
-						</div><!-- .post-thumbnail -->
-						<div class="item-content">
-							<header class="entry-header">
-								<div class="entry-meta">
-									<div class="byline">
-										<span class="date">
-											<a href="<?php echo base_url() . 'blog/post/' . $posts[$i]['url'] ?>" rel="bookmark">
-												<time class="published entry-date" datetime="2019-04-09T12:23:09+00:00"><?php echo $posts[$i]['date'] ?></time>
-											</a>
-										</span>
-										<span class="author vcard">
-											<a class="url fn n" href="#" rel="author"><span>by</span> <?php echo $posts[$i]['author'] ?></a>
-										</span>
-									</div>
+				<article
+					class="vertical-item ls text-center rounded post type-post status-publish format-standard has-post-thumbnail">
+					<div class="item-media post-thumbnail">
+						<a href="<?php echo base_url() . 'blog/post/' . $posts[$i]['url'] ?>">
+							<img src="<?php echo base_url() . $posts[$i]['image'] ?>" alt="img">
+						</a>
+					</div><!-- .post-thumbnail -->
+					<div class="item-content">
+						<header class="entry-header">
+							<div class="entry-meta">
+								<div class="byline">
+									<span class="date">
+										<a href="<?php echo base_url() . 'blog/post/' . $posts[$i]['url'] ?>"
+											rel="bookmark">
+											<time class="published entry-date" datetime="2019-04-09T12:23:09+00:00">
+												<?php echo $posts[$i]['date'] ?>
+											</time>
+										</a>
+									</span>
+									<span class="author vcard">
+										<a class="url fn n" href="#" rel="author"><span>by</span>
+											<?php echo $posts[$i]['author'] ?>
+										</a>
+									</span>
 								</div>
-								<h3 class="entry-title">
-									<a href="<?php echo base_url() . 'blog/post/' . $posts[$i]['url'] ?>" rel="bookmark">
-										<?php echo $posts[$i]['heading'] ?>
-									</a>
-								</h3>
+							</div>
+							<h3 class="entry-title">
+								<a href="<?php echo base_url() . 'blog/post/' . $posts[$i]['url'] ?>" rel="bookmark">
+									<?php echo $posts[$i]['heading'] ?>
+								</a>
+							</h3>
 
-								<!-- .entry-meta -->
-							</header>
-							<!-- .entry-header -->
+							<!-- .entry-meta -->
+						</header>
+						<!-- .entry-header -->
 
-							<div class="entry-content">
-								<p>
-									<?php echo substr(strip_tags($posts[$i]['content']), 0, 150) ?>...
-								</p>
-							</div><!-- .entry-content -->
-							<a class="btn btn-gradient big-btn" href="<?php echo base_url() . 'blog/post/' . $posts[$i]['url'] ?>">read more</a>
+						<div class="entry-content">
+							<p>
+								<?php echo substr(strip_tags($posts[$i]['content']), 0, 150) ?>...
+							</p>
+						</div><!-- .entry-content -->
+						<a class="btn btn-gradient big-btn"
+							href="<?php echo base_url() . 'blog/post/' . $posts[$i]['url'] ?>">read more</a>
 
-						</div><!-- .item-content -->
-					</article><!-- #post-## -->
+					</div><!-- .item-content -->
+				</article><!-- #post-## -->
 				<?php } ?>
 
 
@@ -87,7 +139,8 @@ defined('BASEPATH') or exit('No direct script access allowed');
 						<label for="search-form-widget3">
 							<span class="screen-reader-text">Search for:</span>
 						</label>
-						<input type="search" id="search-form-widget3" class="search-field" placeholder="Search" value="" name="search">
+						<input type="search" id="search-form-widget3" class="search-field" placeholder="Search" value=""
+							name="search">
 						<button type="submit" class="search-submit">
 							<span class="screen-reader-text">Search</span>
 						</button>
@@ -104,21 +157,23 @@ defined('BASEPATH') or exit('No direct script access allowed');
 					<ul class="list-unstyled">
 
 						<?php for ($i = 0; $i < sizeof($posts); $i++) { ?>
-							<li class="media">
-								<a class="media-image" href="<?php echo base_url() . 'blog/post/' . $posts[$i]['url'] ?>">
-									<img src="<?php echo $posts[$i]['image'] ?>" alt="img">
-								</a>
-								<div class="media-body">
-									<h4>
-										<a href="<?php echo base_url() . 'blog/post/' . $posts[$i]['url'] ?>"><?php echo substr(strip_tags($posts[$i]['heading']), 0, 150) ?></a>
-									</h4>
-									<p class="item-meta">
-										<i class="far fa-calendar-alt"></i>
-										<?php echo $posts[$i]['date'] ?>
-									</p>
+						<li class="media">
+							<a class="media-image" href="<?php echo base_url() . 'blog/post/' . $posts[$i]['url'] ?>">
+								<img src="<?php echo $posts[$i]['image'] ?>" alt="img">
+							</a>
+							<div class="media-body">
+								<h4>
+									<a href="<?php echo base_url() . 'blog/post/' . $posts[$i]['url'] ?>">
+										<?php echo substr(strip_tags($posts[$i]['heading']), 0, 150) ?>
+									</a>
+								</h4>
+								<p class="item-meta">
+									<i class="far fa-calendar-alt"></i>
+									<?php echo $posts[$i]['date'] ?>
+								</p>
 
-								</div>
-							</li>
+							</div>
+						</li>
 
 						<?php } ?>
 
