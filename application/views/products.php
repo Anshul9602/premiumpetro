@@ -3,14 +3,27 @@ defined('BASEPATH') or exit('No direct script access allowed');
 ?>
 
 <style>
-	.step-wrap{
-		justify-content:space-between;
+	.step-wrap {
+		justify-content: space-between;
 	}
-	.steps-vertical .step-wrap .step-wrap__text{
-		width:50%;
+
+	.step-wrap p {
+		color: black !important;
+	}
+
+	.steps-vertical .step-wrap .step-wrap__text {
+		width: 50%;
+	}
+	.ttte .row{
+	align-items: center;
+	justify-content: space-between;
+	}
+	.step-wrap__text{
+	color:black
 	}
 </style>
-<section class="page_title ds  s-pb-xl-80  s-pb-lg-100  s-pb-md-90 s-pt-md-190 s-pt-180 s-pb-60" style="background-image:url('images/Product-Page-Banner_2.jpg'); background-size:cover!important; background-repeat:no-repeat!important; ">
+<section class="page_title ds  s-pb-xl-80  s-pb-lg-100  s-pb-md-90 s-pt-md-190 s-pt-180 s-pb-60"
+	style="background-image:url('images/Product-Page-Banner_2.jpg'); background-size:cover!important; background-repeat:no-repeat!important; ">
 	<div class="container">
 		<div class="row">
 			<div class="col-md-12 text-center">
@@ -35,170 +48,173 @@ defined('BASEPATH') or exit('No direct script access allowed');
 </section>
 
 
-<section class="ls s-pt-xl-160 s-pt-lg-130 s-pt-md-90 s-pt-60 s-pb-xl-160 s-pb-lg-130 s-pb-md-90 s-pb-60">
-	<div class="container">
-		<div class="row">
-			<div class="col-12">
-				<h2 class="special-heading text-center">
-					<span class="text-capitalize">
-						Our Products
-					</span>
-				</h2>
-				<div class="divider-line bg-maincolor text-center"></div>
-				<div class="fw-divider-space divider-75"></div>
-				<p class="text-center">
-					<span style="font-size:18px; font-wieght:bold;">
+<section class="ls s-pt-xl-70 s-pt-lg-70 s-pt-md-90 s-pt-60 s-pb-xl-160 s-pb-lg-130 s-pb-md-90 s-pb-60">
+	<div class="container ttte">
+		<div class="col-12">
+			<p class="text-center">
+				<span style="font-size:18px; font-wieght:bold;">
 					We supply Viscosity Grade Bitumen compliant to mandatory requirements of IRC/BIS/BSR etc.
-					</span>
-				</p>
-
-				<!-- <h4>
-
-					Main Features
-
-				</h4>
-
-				<div class="fw-divider-space divider-25"></div>
-
-				<ul>
-					<li>Accurate composition</li>
-					<li>Highly effectiveness</li>
-					<li>Best quality</li>
-				</ul> -->
-
-				<br />
-				<hr style="margin:0;" />
-
-				<div class="divider-45 hidden-below-lg"></div>
-				<div class="divider-30 hidden-above-lg"></div>
-				<div class="steps-vertical">
-					<div class="step-wrap">
-						<div class="step-wrap__text special-heading">
-							<h4>
-								<a href="<?php echo base_url() ?>products/bitumen-vg-10-price">VG-10</a>
-							</h4>
-							<p>
-								VG10 bitumen is&nbsp;the softest grade of viscosity&nbsp;bitumen. This type of bitumen is widely used for spraying applications and surface coating.
-								<br />
-
-							</p>
-							<a class="btn btn-gradient small-btn" href="<?php echo base_url() ?>products/bitumen-vg-10-price">
-								Know More
-							</a>
-						</div>
+				</span>
+			</p>
+			<div class="divider-45 hidden-below-lg"></div>
+		</div>
+		<div class="row">
 
 
-						<div class="step-wrap__image">
-							<img src="<?php echo base_url() ?>images/products/bitumen-vg-10.jpg" alt="img">
-						</div>
-					</div>
+			<div class="col-md-6">
+				<div class="step-wrap__text special-heading">
+					<h4>
+						<a href="<?php echo base_url() ?>products/bitumen-vg-10-price">VG-10</a>
+					</h4>
+					<p>
+						VG10 bitumen is&nbsp;the softest grade of viscosity&nbsp;bitumen. This type of bitumen is widely
+						used for spraying applications and surface coating.
+						<br />
 
-					<hr style="margin:0;" />
-					<br />
-					<div class="step-wrap">
-						<div class="step-wrap__text">
-							<h4>
-								<a href="<?php echo base_url() ?>products/bitumen-vg-30-price">VG-30</a>
-							</h4>
-							<p>
-								This bitumen is primarily used for the construction of extra-heavy bitumen pavements that have to bear&nbsp;significant traffic loads.
-							</p>
-							<a class="btn btn-gradient small-btn" href="<?php echo base_url() ?>products/bitumen-vg-30-price">
-								Know More
-							</a>
-						</div>
+					</p>
+					<a class="btn btn-gradient small-btn" href="<?php echo base_url() ?>products/bitumen-vg-10-price">
+						Know More
+					</a>
+				</div>
+			</div>
+			<div class="col-md-4 mt-md-3">
+				<div style="    border-radius: 20px; overflow: hidden;">
+					<img src="<?php echo base_url() ?>images/products/bitumen-vg-10.jpg" alt="img">
+				</div>
 
-
-						<div class="step-wrap__image">
-							<img src="<?php echo base_url() ?>images/products/bitumen-vg-30.jpg" alt="img">
-						</div>
-					</div>
-					<hr style="margin:0;" />
-					<br />
-					<div class="step-wrap">
-						<div class="step-wrap__text">
-							<h4>
-								<a href="<?php echo base_url() ?>products/bitumen-vg-40-price">VG-40</a>
-							</h4>
-							<p>
-								VG40&nbsp;bitumen is used in areas in which&nbsp;high pressure comes from heavy traffic loads, such as intersections, near tolls booths, and truck parking lots.
-							</p>
-							<a class="btn btn-gradient small-btn" href="<?php echo base_url() ?>products/bitumen-vg-40-price">
-								Know More
-							</a>
-						</div>
+			</div>
 
 
-						<div class="step-wrap__image">
-							<img src="<?php echo base_url() ?>images/products/bitumen-vg-40.jpg" alt="img">
-						</div>
-					</div>
-					<hr style="margin:0;" />
-					<br />
-					<div class="step-wrap">
-						<div class="step-wrap__text">
-							<h4>
-								<a href="<?php echo base_url() ?>products/polymer-modified-bitumen-price">POLYMER MODIFIED BITUMEN (PMB)</a>
-							</h4>
-							<p>
-								Polymer modified bitumen (PMB) is&nbsp;bitumen combined with one or more&nbsp;polymer&nbsp;materials. This modification is done with the aim of enhancing the mechanical properties of the bitumen material.
-							</p>
-							<a class="btn btn-gradient small-btn" href="<?php echo base_url() ?>products/polymer-modified-bitumen-price">
-								Know More
-							</a>
-						</div>
+		</div>
+		<div class="row mt-md-5 mt-4">
+			<div class="col-md-4 mt-md-3">
+				<div style="    border-radius: 20px; overflow: hidden;">
+					<img src="<?php echo base_url() ?>images/products/bitumen-vg-30.jpg" alt="img">
+				</div>
 
-
-						<div class="step-wrap__image">
-							<img src="<?php echo base_url() ?>images/products/polymer-modified-bitumen.jpg" alt="img">
-						</div>
-					</div>
-					<hr style="margin:0;" />
-					<br />
-					<div class="step-wrap">
-						<div class="step-wrap__text">
-							<h4>
-								<a href="<?php echo base_url() ?>products/crumb-rubber-modified-bitumen">CRUMB RUBBER MODIFIED BITUMEN (CRMB)</a>
-							</h4>
-							<p>
-								CRMB is used worldwide for the improvement of binder characteristics for use in wearing courses of flexible pavements. CRMB is prepared by the addition of reclaimed truck tires further improved by the additives.
-							</p>
-							<a class="btn btn-gradient small-btn" href="<?php echo base_url() ?>products/crumb-rubber-modified-bitumen">
-								Know More
-							</a>
-						</div>
-
-
-						<div class="step-wrap__image">
-							<img src="<?php echo base_url() ?>images/products/crumb-rubber-modified-bitumen.jpg" alt="img">
-						</div>
-					</div>
-					<hr style="margin:0;" />
-					<br />
-					<div class="step-wrap">
-						<div class="step-wrap__text">
-							<h4>
-								<a href="<?php echo base_url() ?>products/bitumen">BITUMEN EMULSION</a>
-							</h4>
-							<p>
-							Bitumen emulsion consists of a mixture of bitumen and water.
-							Bitumen can be easily transformed into a low-viscosity liquid by dispersing it in water with an emulsifier. This can then be used for a wide range of applications including road maintenance, waterproofing and spraying.
-							</p>
-							<a class="btn btn-gradient small-btn" href="<?php echo base_url() ?>products/bitumen">
-								Know More
-							</a>
-
-						</div>
-
-
-						<div class="step-wrap__image">
-							<img src="<?php echo base_url() ?>images/products/bit-emulsion.jpg" alt="img">
-						</div>
-					</div>
+			</div>
+			<div class="col-md-6 ">
+				<div class="step-wrap__text">
+					<h4>
+						<a href="<?php echo base_url() ?>products/bitumen-vg-30-price">VG-30</a>
+					</h4>
+					<p>
+						This bitumen is primarily used for the construction of extra-heavy bitumen pavements
+						that have to bear&nbsp;significant traffic loads.
+					</p>
+					<a class="btn btn-gradient small-btn" href="<?php echo base_url() ?>products/bitumen-vg-30-price">
+						Know More
+					</a>
 				</div>
 			</div>
 		</div>
-	</div>
+		<div class="row mt-md-5 mt-4">
+
+			<div class="col-md-6 ">
+				<div class="step-wrap__text">
+					<h4>
+						<a href="<?php echo base_url() ?>products/bitumen-vg-40-price">VG-40</a>
+					</h4>
+					<p>
+						VG40&nbsp;bitumen is used in areas in which&nbsp;high pressure comes from heavy traffic
+						loads, such as intersections, near tolls booths, and truck parking lots.
+					</p>
+					<a class="btn btn-gradient small-btn" href="<?php echo base_url() ?>products/bitumen-vg-40-price">
+						Know More
+					</a>
+				</div>
+			</div>
+			<div class="col-md-4 mt-md-3">
+				<div style="    border-radius: 20px; overflow: hidden;">
+					<img src="<?php echo base_url() ?>images/products/bitumen-vg-40.jpg" alt="img">
+				</div>
+
+			</div>
+		</div>
+		<div class="row mt-md-5 mt-4">
+
+
+			<div class="col-md-4 mt-md-3">
+				<div style="    border-radius: 20px; overflow: hidden;">
+					<img src="<?php echo base_url() ?>images/products/polymer-modified-bitumen.jpg" alt="img">
+				</div>
+
+			</div>
+			<div class="col-md-6 ">
+				<div class="step-wrap__text">
+					<h4>
+						<a href="<?php echo base_url() ?>products/polymer-modified-bitumen-price">POLYMER
+							MODIFIED BITUMEN (PMB)</a>
+					</h4>
+					<p>
+						Polymer modified bitumen (PMB) is&nbsp;bitumen combined with one or
+						more&nbsp;polymer&nbsp;materials. This modification is done with the aim of enhancing
+						the mechanical properties of the bitumen material.
+					</p>
+					<a class="btn btn-gradient small-btn"
+						href="<?php echo base_url() ?>products/polymer-modified-bitumen-price">
+						Know More
+					</a>
+				</div>
+			</div>
+		</div>
+		<div class="row mt-md-5 mt-4">
+
+
+
+			<div class="col-md-6 ">
+				<div class="step-wrap__text">
+					<h4>
+						<a href="<?php echo base_url() ?>products/crumb-rubber-modified-bitumen">CRUMB RUBBER
+							MODIFIED BITUMEN (CRMB)</a>
+					</h4>
+					<p>
+						CRMB is used worldwide for the improvement of binder characteristics for use in wearing
+						courses of flexible pavements. CRMB is prepared by the addition of reclaimed truck tires
+						further improved by the additives.
+					</p>
+					<a class="btn btn-gradient small-btn"
+						href="<?php echo base_url() ?>products/crumb-rubber-modified-bitumen">
+						Know More
+					</a>
+				</div>
+			</div>
+			<div class="col-md-4 mt-md-3">
+				<div style="    border-radius: 20px; overflow: hidden;">
+					<img src="<?php echo base_url() ?>images/products/crumb-rubber-modified-bitumen.jpg" alt="img">
+				</div>
+
+			</div>
+		</div>
+		<div class="row mt-md-5 mt-4">
+
+			<div class="col-md-4 mt-md-3">
+				<div style="    border-radius: 20px; overflow: hidden;">
+					<img src="<?php echo base_url() ?>images/products/bit-emulsion.jpg" alt="img">
+				</div>
+
+			</div>
+			<div class="col-md-6 ">
+				<div class="step-wrap__text">
+					<h4>
+						<a href="<?php echo base_url() ?>products/bitumen">BITUMEN EMULSION</a>
+					</h4>
+					<p>
+						Bitumen emulsion consists of a mixture of bitumen and water.
+						Bitumen can be easily transformed into a low-viscosity liquid by dispersing it in water
+						with an emulsifier. This can then be used for a wide range of applications including
+						road maintenance, waterproofing and spraying.
+					</p>
+					<a class="btn btn-gradient small-btn" href="<?php echo base_url() ?>products/bitumen">
+						Know More
+					</a>
+
+				</div>
+			</div>
+		</div>
+
+
+
 </section>
 
 <!-- <section class="ls ms map-section s-pt-xl-160 s-pt-lg-130 s-pt-md-90 s-pt-60 s-pb-xl-280 s-pb-lg-250 s-pb-md-90 s-pb-60">
