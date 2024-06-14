@@ -1,7 +1,7 @@
 <?php
 defined('BASEPATH') or exit('No direct script access allowed');
 ?>
-<section class="page_title ds s-parallax s-pb-xl-80  s-pb-lg-100  s-pb-md-90 s-pt-md-190 s-pt-180 s-pb-60" style="background-image:url('images/Contact-Us-Page-Banner.jpg'); background-size:cover!important; background-repeat:no-repeat!important; background-position:center!important; background-attachment:scroll;">
+<section class="page_title ds s-parallax s-pb-xl-80  s-pb-lg-100  s-pb-md-90 s-pt-md-250 s-pt-180 s-pb-60" style="background-image:url('images/Contact-Us-Page-Banner.jpg'); background-size:cover!important; background-repeat:no-repeat!important; background-position:center!important; background-attachment:scroll;">
     <div class="container">
         <div class="row">
             <div class="col-md-12 text-center">

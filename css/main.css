@@ -12172,11 +12172,11 @@ body.boxed {
 }
 
 .ds .special-heading span.sub-title {
-    color: #09445a
+    color: #000;
 }
 
 .ds .special-heading span.sub-title:before {
-    background: #09445a
+    background: #000
 }
 
 .ds .ls .special-heading span.sub-title {
@@ -20513,7 +20513,7 @@ span.muted-bg {
 .special-heading {
     display: inline-block;
     letter-spacing: 0;
-    margin: -10px 0 0 !important;
+    margin-bottom: -10px!important;
     position: relative;
     width: 100%;
     word-wrap: break-word
@@ -20570,7 +20570,8 @@ span.muted-bg {
 
 @media(max-width:575px) {
     .special-heading {
-        text-align: center
+        margin-bottom: auto !important;
+        text-align: start
     }
 }
 

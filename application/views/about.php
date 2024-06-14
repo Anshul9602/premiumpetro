@@ -142,6 +142,9 @@ defined('BASEPATH') or exit('No direct script access allowed');
 	}
 
 	@media (max-width: 767.98px) {
+		.cust_f{
+		font-size: 30px !important;
+		}
 		.timeline::after {
 			left: 90px;
 		}
@@ -233,9 +236,9 @@ defined('BASEPATH') or exit('No direct script access allowed');
 </section>
 
 <section class="ls s-py-xl-160 s-py-lg-130 s-py-md-90 s-py-60">
-	<div class="container" style="padding:100px 0 30px 0!important;">
+	<div class="container pt-md-5 mt-md-5  pb-md-5 " >
 		<div class="row " style='margin:0!important;justify-content: space-between;'>
-			<div class="col-md-6 text-start" style="padding:30px;">
+			<div class="col-md-6 text-start" >
 				<h2 class="special-heading text-start">
 					<span class="text-capitalize" style="color:#000000;">
 						WHO WE ARE
@@ -268,7 +271,7 @@ defined('BASEPATH') or exit('No direct script access allowed');
 					class="btn btn-gradient medium-btn" href="<?php echo base_url() ?>aboutus">Download Brochure</a>
 
 			</div>
-			<div class="col-md-5" style="padding:30px;">
+			<div class="col-md-5 mt-md-0 mt-3" >
 				<img src="assets/img/who_we.png" alt="" width="100%">
 
 			</div>
@@ -279,14 +282,14 @@ defined('BASEPATH') or exit('No direct script access allowed');
 
 
 <section class="ls s-py-xl-160 text-sm-left text-center s-py-lg-130 s-py-md-90 s-py-60 c-gutter-60" id="our-vision">
-	<div class="container" style="padding:10px 0 30px 0!important;">
+	<div class="container pt-md-5  pb-md-5 " >
 		<div class="row" >
-			<div class="col-md-6">
+			<div class="col-md-6 ">
 				<div class="card text-start"
 					style="background-color: #F4F4F4;border-radius: 26.5px;    overflow: hidden;">
 					<img class="card-img-top" src="<?php echo base_url('assets/img/Vision.jpg'); ?>" alt="img" />
 					<div class="card-body">
-						<h4 class="mt-2 card-title text-sm-left text-center">
+						<h4 class="mt-2 card-title text-sm-left text-start" style="text-align: start;">
 							<span class="text-capitalize" style="color:#000000;">
 								Our Vision
 							</span>
@@ -299,12 +302,12 @@ defined('BASEPATH') or exit('No direct script access allowed');
 					</div>
 				</div>
 			</div>
-			<div class="col-md-6">
+			<div class="col-md-6 mt-md-0 mt-3">
 				<div class="card text-start"
 					style="background-color: #F4F4F4;border-radius: 26.5px;    overflow: hidden;">
 					<img class="card-img-top" src="<?php echo base_url('assets/img/mission.png'); ?>" alt="img" />
 					<div class="card-body">
-						<h4 class="mt-2 card-title text-sm-left text-center">
+						<h4 class="mt-2 card-title text-sm-left text-start"style="text-align: start;">
 							<span class="text-capitalize" style="color:#000000;">
 								Our Mission
 							</span>
@@ -326,11 +329,11 @@ defined('BASEPATH') or exit('No direct script access allowed');
 
 
 <section class="ls s-py-xl-160 text-sm-left text-center s-py-lg-130 s-py-md-90 s-py-60 c-gutter-60" id="our-history" style="background-color: #09202F;">
-	<div class="container" style="padding:100px 0!important;">
+	<div class="container pt-md-5  pb-md-5 ">
 		<div class="row" style='margin:0!important;    align-items: center;'>
 
 			<div class="col-lg-6 col-12">
-				<h2 class="special-heading text-sm-left text-center text-white">
+				<h2 class="special-heading text-sm-left text-start text-white">
 					<span class="text-capitalize">
 						Our History
 					</span>
@@ -350,7 +353,7 @@ defined('BASEPATH') or exit('No direct script access allowed');
 
 
 
-			<div class="col-lg-6 col-12">
+			<div class="col-lg-6 col-12 mt-md-0 mt-3">
 			
 				<img src="<?php echo base_url('images/our_story.png'); ?>" alt="img" class="img-responsive">
 			</div>
@@ -365,22 +368,22 @@ defined('BASEPATH') or exit('No direct script access allowed');
 </section>
 
 <section class="ls s-py-xl-160 text-sm-left text-center s-py-lg-130 s-py-md-90 s-py-60 c-gutter-60" id="our-reach" style="background-color: #F0F3F6;">
-	<div class="row" style='margin-top:60px;margin-left:10%!important;'>
-		<div class="col-md-5 text-center">
-			<h1 class="special-heading text-sm-left text-center cust_f" style="font-size: 120px;">
+	<div class="row pt-5  pr-0 pl-0 ml-md-5 ml-3 p-0" >
+		<div class="col-md-5 col-6 text-center pr-0">
+			<h1 class="special-heading text-sm-left text-start cust_f" style="font-size: 120px;">
 				<span class="text-capitalize">
 					Our Reach
 				</span>
 			</h1>
 		</div>
-		<div class="col-md-7" style="    align-items: center;
+		<div class="col-md-7 col-6 p-0" style="    align-items: center;
     display: flex;">
 			<img src="<?php echo base_url('images/line.png'); ?>" alt="img" width="100%">
 		</div>
 		
 
 	</div>
-	<div class="container" style="padding:10px 0 80px 0!important;">
+	<div class="container pt-md-5  pb-md-5 " >
 		<div class="row" style='margin:0!important;'>
 			
 			<div class="col-md-12">
@@ -393,23 +396,23 @@ defined('BASEPATH') or exit('No direct script access allowed');
 </section>
 
 <section class="ls s-py-xl-160 text-sm-left text-center s-py-lg-130 s-py-md-90 s-py-60 c-gutter-60" id="our-reach">
-	<div class="container" style="padding:60px 0!important;">
+	<div class=" container pt-md-5  pb-md-5 " >
 		<div class="row" style='margin:0!important;align-items: center;'>
 
 
 
 			<div class="col-md-5 text-start">
-				<h4 class="special-heading text-sm-left text-center" >
+				<h4 class="special-heading text-sm-left text-start" >
 					<span class="text-capitalize" >
 						Awards and Certificates
 					</span>
 				</h4>
 				
 				<div class="fw-divider-space divider-20"></div>
-				<p style="color: #000000;">Lorem ipsum dolor sit amet consectetur adipisicing elit. Numquam, ab? Provident dignissimos incidunt temporibus laudantium distinctio vitae vero dolor nemo non, modi doloribus consectetur! Impedit corrupti unde, laboriosam enim, eius sunt quas alias, libero error accusamus similique quis iste? Voluptatem aliquam soluta officia minima dolor.  </p>
+				<p style="color: #000000;text-align: start;">Lorem ipsum dolor sit amet consectetur adipisicing elit. Numquam, ab? Provident dignissimos incidunt temporibus laudantium distinctio vitae vero dolor nemo non, modi doloribus consectetur! Impedit corrupti unde, laboriosam enim, eius sunt quas alias, libero error accusamus similique quis iste? Voluptatem aliquam soluta officia minima dolor.  </p>
 				
 			</div>
-			<div class=" col-md-4">
+			<div class=" col-md-4 col-7">
 				<div >
 					<div>
 						<img src="<?php echo base_url('assets/aw1.jpg'); ?>" alt="img"
@@ -419,7 +422,7 @@ defined('BASEPATH') or exit('No direct script access allowed');
 				</div>
 
 			</div>
-			<div class="col-md-3">
+			<div class="col-md-3 col-5">
 				<div >
 					<div>
 						<img src="<?php echo base_url('assets/aw2.png'); ?>" alt="img"
