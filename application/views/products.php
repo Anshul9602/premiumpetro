@@ -22,7 +22,7 @@ defined('BASEPATH') or exit('No direct script access allowed');
 	color:black
 	}
 </style>
-<section class="page_title ds  s-pb-xl-80  s-pb-lg-100  s-pb-md-90 s-pt-md-190 s-pt-180 s-pb-60"
+<section class="page_title ds  s-pb-xl-80  s-pb-lg-100  s-pb-md-90 s-pt-md-250 s-pt-180 s-pb-60"
 	style="background-image:url('images/Product-Page-Banner_2.jpg'); background-size:cover!important; background-repeat:no-repeat!important; ">
 	<div class="container">
 		<div class="row">
