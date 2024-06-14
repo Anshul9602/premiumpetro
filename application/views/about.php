@@ -364,23 +364,28 @@ defined('BASEPATH') or exit('No direct script access allowed');
 	</div>
 </section>
 
-<section class="ls s-py-xl-160 text-sm-left text-center s-py-lg-130 s-py-md-90 s-py-60 c-gutter-60" id="our-reach">
-	<div class="container" style="padding:100px 0 30px 0!important;">
+<section class="ls s-py-xl-160 text-sm-left text-center s-py-lg-130 s-py-md-90 s-py-60 c-gutter-60" id="our-reach" style="background-color: #F0F3F6;">
+	<div class="row" style='margin-top:60px;margin-left:10%!important;'>
+		<div class="col-md-5 text-center">
+			<h1 class="special-heading text-sm-left text-center cust_f" style="font-size: 120px;">
+				<span class="text-capitalize">
+					Our Reach
+				</span>
+			</h1>
+		</div>
+		<div class="col-md-7" style="    align-items: center;
+    display: flex;">
+			<img src="<?php echo base_url('images/line.png'); ?>" alt="img" width="100%">
+		</div>
+		
+
+	</div>
+	<div class="container" style="padding:10px 0 80px 0!important;">
 		<div class="row" style='margin:0!important;'>
-
-
-
-			<div class="col-12 text-center">
-				<h2 class="special-heading text-sm-left text-center">
-					<span class="text-capitalize">
-						Our Reach
-					</span>
-				</h2>
-				<div class="divider-line bg-maincolor"></div>
+			
+			<div class="col-md-12">
 				<div class="fw-divider-space divider-30"></div>
 				<img src="<?php echo base_url('images/Map.png'); ?>" alt="img" style="width:100%; max-width:900px;">
-
-
 			</div>
 
 		</div>
@@ -388,49 +393,47 @@ defined('BASEPATH') or exit('No direct script access allowed');
 </section>
 
 <section class="ls s-py-xl-160 text-sm-left text-center s-py-lg-130 s-py-md-90 s-py-60 c-gutter-60" id="our-reach">
-	<div class="container" style="padding:100px 0 30px 0!important;">
-		<div class="row" style='margin:0!important;'>
+	<div class="container" style="padding:60px 0!important;">
+		<div class="row" style='margin:0!important;align-items: center;'>
 
 
 
-			<div class="col-12 text-center">
-				<h2 class="special-heading text-sm-left text-center">
-					<span class="text-capitalize">
+			<div class="col-md-5 text-start">
+				<h4 class="special-heading text-sm-left text-center" >
+					<span class="text-capitalize" >
 						Awards and Certificates
 					</span>
-				</h2>
-				<div class="divider-line bg-maincolor"></div>
-				<div class="fw-divider-space divider-30"></div>
-				<div class="row">
-					<div class="col-12 col-md-6">
-						<div style="padding:10px">
-							<div>
-								<img src="<?php echo base_url('assets/aw1.jpg'); ?>" alt="img"
-									style="width:100%; max-width:900px;">
+				</h4>
+				
+				<div class="fw-divider-space divider-20"></div>
+				<p style="color: #000000;">Lorem ipsum dolor sit amet consectetur adipisicing elit. Numquam, ab? Provident dignissimos incidunt temporibus laudantium distinctio vitae vero dolor nemo non, modi doloribus consectetur! Impedit corrupti unde, laboriosam enim, eius sunt quas alias, libero error accusamus similique quis iste? Voluptatem aliquam soluta officia minima dolor.  </p>
+				
+			</div>
+			<div class=" col-md-4">
+				<div >
+					<div>
+						<img src="<?php echo base_url('assets/aw1.jpg'); ?>" alt="img"
+							style="width:100%; max-width:900px;">
 
-							</div>
-						</div>
-
-					</div>
-					<div class="col-12 col-md-6">
-						<div style="padding:10px">
-							<div>
-								<img src="<?php echo base_url('assets/aw2.jpg'); ?>" alt="img"
-									style="width:100%; max-width:900px;">
-
-							</div>
-						</div>
 					</div>
 				</div>
 
-
 			</div>
+			<div class="col-md-3">
+				<div >
+					<div>
+						<img src="<?php echo base_url('assets/aw2.png'); ?>" alt="img"
+							style="width:100%; max-width:900px;">
 
+					</div>
+				</div>
+			</div>
+	
 		</div>
 	</div>
 </section>
 
-<section id="team" class="ls ms s-pt-xl-160 s-pt-lg-130 s-pt-md-90 s-pt-60 s-pb-xl-280 s-pb-lg-250 s-pb-md-90 s-pb-60">
+<section id="team" class="ls ms s-pt-xl-60 s-pt-lg-130 s-pt-md-90 s-pt-60 s-pb-xl-70 s-pb-lg-70 s-pb-md-90 s-pb-60" style="background-color: #F0F3F6;">
 	<div class="container">
 		<div class="row" style='margin:0!important;'>
 			<div class="col-sm-12">

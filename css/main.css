@@ -335,11 +335,11 @@ a:hover>img {
 }
 
 hr {
-    border-color: #f2f5f7;
-    margin-bottom: 30px;
+    border-color: #000;
+    margin-bottom: 0px;
     margin-left: 0;
     margin-right: 0;
-    margin-top: 30px
+    margin-top: 0px
 }
 
 iframe {
@@ -11888,7 +11888,7 @@ body.boxed {
 .ls h4,
 .ls h5,
 .ls h6 {
-    color: #09445a
+    color: #000;
 }
 
 .ls h1 a,

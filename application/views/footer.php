@@ -140,8 +140,9 @@ defined('BASEPATH') or exit('No direct script access allowed');
         }
     }
 </style>
-
+<hr>
 <section class="py-60" style="padding-bottom:160px;">
+   
     <div class="container text-control-1">
         <h3 class="text-center mb-4">FAQs</h3>
         <div class="d-flex justify-content-md-around justify-content-between mb-4">
