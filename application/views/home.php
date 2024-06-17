@@ -8,7 +8,18 @@ defined('BASEPATH') or exit('No direct script access allowed');
 	.slick-next:before {
 		color: #000;
 	}
-
+.tarns .card{
+	background-color: transparent !important;
+	border:none !important;
+	border-radius: 0 !important;
+	color: #FFF !important;
+}
+.tarns .card-body h5{
+color: #FFF !important;
+}
+.tarns .card img{
+width: 150px;
+}
 
 	.icon-styled i {
 		width: auto;
@@ -483,7 +494,7 @@ defined('BASEPATH') or exit('No direct script access allowed');
 	</div>
 </section>
 
-<section class="ls  s-py-xl-160 s-py-lg-130 s-py-md-90 s-py-60 text-sm-left text-center container-px-0"
+<section class="ls  s-py-xl-160 s-py-lg-130 s-py-md-90 s-py-60 text-sm-left text-center container-px-0 tarns"
 
 style="background-color: #09202F;"
 >
@@ -498,9 +509,8 @@ style="background-color: #09202F;"
 				<div class="card" style="width:100%">
 					<img src="assets/check-mark.png" class="card-img-top supply-chain-img" alt="...">
 					<div class="card-body transport-card-body">
-						<h5>Home feets and supply chain</h5>
-						<p class="card-text">We have our own fleet of services that will give you one stop solution for your transportation and
-							delivery services of your petro product</p>
+						<h5>Home Feets And Supply Chain</h5>
+						<p class="card-text">We have our own fleet of services that will give you one stop solution for your transportation and delivery services of your petro product</p>
 					</div>
 				</div>
 			</div>
@@ -510,11 +520,8 @@ style="background-color: #09202F;"
 					<img src="assets/supply-chain-management.png" class="card-img-top supply-chain-img" alt="...">
 
 					<div class="card-body transport-card-body">
-						<h5>Hassel free solutions</h5>
-						<p class="card-text">Many times Customers struggle with Communication between managers, drivers and Coompany.
-							With the constant updates from our live GPS fleet tracking services it Opens the line of
-							Communication that helps you better understand and explain arrival time and promote overall
-							efficiency of your business.</p>
+						<h5>Hassle Free Solutions</h5>
+						<p class="card-text">Our live GPS fleet tracking service bridges communication gaps between managers, drivers, and your company, ensuring clarity on arrival times and enhancing overall business efficiency</p>
 					</div>
 				</div>
 			</div>
@@ -552,56 +559,68 @@ style="background-color: #09202F;"
 </section>
 
 <section class="ls  s-py-xl-160 s-py-lg-130 s-py-md-90 s-py-60 text-sm-left text-center container-px-0">
-	<div class="container" style="padding-bottom:20px; padding-top:50px;">
-		<h3 class="special-heading text-center" style="margin-bottom:30px!important;">
+	<div class="row" style="justify-content: end;">
+		<div class="col-md-4">
+		<h3 class="special-heading cus_hh" style="font-size:130px;color:#09202F;">
 			<span class="text-capitalize">
-				Road Construction
+				Road
 			</span>
 		</h3>
-		<div class="row">
-			<div class="col-12 col-sm-6 col-md-6 col-lg-6" style="margin-bottom:20px;">
-				<div class="card" style="width:100%">
-					<img src="images/roads/road1.jpg" class="card-img-top" alt="...">
-					<div class="card-body">
-						<h5>National Highways</h5>
-						<p class="card-text">The National highways in India are a network of trunk roads owned by the Ministry of Road Transport and Highways. They connect important cities, towns, ports etc. of different states. They may even connect the neighbouring countries. Most of the existing highways are now four-lane roads, much of this is being expanded to six or more lanes. National Highways constitute 2.7% of India's total road network.</p>
+		</div>
+		<div class="col-md-8">
+			<img src="assets/road.png" alt="img" width="100%">
+		</div>
+		<div class="col-md-10">
+		<h3 class="special-heading text-center cus_hh" style="font-size:150px;color:#09202F;">
+			<span class="text-capitalize">
+				 Construction
+			</span>
+		</h3>
+		</div>
+	</div>
+	<div class="container" style="padding-bottom:20px; padding-top:50px;">
+		
+		<div class="row justify-content-between">
+			<div class="col-md-5 text-center mt-3" >
+					<img src="images/roads/road1.png" class="card-img-top" alt="..." style="width:100%">				
+			</div>
+			<div class="col-md-6 mt-md-3 mt-4" style="    align-items: center;    display: flex;">
+					<div>
+					<h2>National Highways</h2>
+					<p style="color:#000;">The National highways in India are a network of trunk roads owned by the Ministry of Road Transport and Highways. They connect important cities, towns, ports etc. of different states. They may even connect the neighbouring countries. Most of the existing highways are now four-lane roads, much of this is being expanded to six or more lanes. National Highways constitute 2.7% of India's total road network.</p>
 					</div>
-				</div>
+			</div>
+			<div class="divider-50 hidden-above-lg"></div>
+			<div class="col-md-6 mt-3 " style="    align-items: center;    display: flex;">
+					<div>
+					<h2>State Highways</h2>
+						<p style="color:#000;">This is the network of roads maintained by the state governments. These roads are constructed and managed by the states' Public Works Department. The state highways are usually roads that link important cities, towns and district headquarters within the state and connect them with National Highways or State Highways of neighbouring states.</p>
+					</div>
+			</div>
+			<div class="col-md-5 text-center mt-md-3 mt-4" >
+					<img src="images/roads/road2.png" class="card-img-top" alt="..." style="width:100%">				
+			</div>
+			<div class="divider-50 hidden-above-lg"></div>
+			<div class="col-md-5 text-center mt-3" >
+					<img src="images/roads/road3.png" class="card-img-top" alt="..." style="width:100%">				
+			</div>
+			<div class="col-md-6 mt-md-3 mt-4" style="    align-items: center;    display: flex;">
+					<div>
+					<h2>Major District Roads</h2>
+						<p style="color:#000;">These are the roads within a district connecting market and production areas to state or national Highways or railways stations. The MDR has lower speed and geometric design specifications than National Highways or State Highways.</p>
+					</div>
+			</div>
+			<div class="divider-50 hidden-above-lg"></div>
+			<div class="col-md-6 mt-3" style="    align-items: center;    display: flex;">
+					<div>
+					<h2>Other District Roads</h2>
+						<p style="color:#000;">These roads connect rural areas of production to market centres, or other main roads. These roads have lower design specifications than Major District Roads. These roads are looked after by district authorities with the help of State Government Departments. They are also known as Minor District Roads.</p>
+					</div>
+			</div>
+			<div class="col-md-5 text-center mt-md-3 mt-4" >
+					<img src="images/roads/road4.png" class="card-img-top" alt="..." style="width:100%">				
 			</div>
 
-			<div class="col-12 col-sm-6 col-md-6 col-lg-6" style="margin-bottom:20px;">
-				<div class="card" style="width:100%">
-					<img src="images/roads/road2.jpg" class="card-img-top" alt="...">
-					<div class="card-body">
-						<h5>State Highways</h5>
-						<p class="card-text">This is the network of roads maintained by the state governments. These roads are constructed and managed by the states' Public Works Department. The state highways are usually roads that link important cities, towns and district headquarters within the state and connect them with National Highways or State Highways of neighbouring states.</p>
-					</div>
-				</div>
-			</div>
-
-
-
-			<div class="col-12 col-sm-6 col-md-6 col-lg-6" style="margin-bottom:20px;">
-				<div class="card" style="width:100%">
-					<img src="images/roads/road3.jpg" class="card-img-top" alt="...">
-					<div class="card-body">
-						<h5>Major District Roads</h5>
-						<p class="card-text">These are the roads within a district connecting market and production areas to state or national Highways or railways stations. The MDR has lower speed and geometric design specifications than National Highways or State Highways.</p>
-					</div>
-				</div>
-			</div>
-
-
-
-			<div class="col-12 col-sm-6 col-md-6 col-lg-6" style="margin-bottom:20px;">
-				<div class="card" style="width:100%">
-					<img src="images/roads/road4.jpg" class="card-img-top" alt="...">
-					<div class="card-body">
-						<h5>Other District Roads</h5>
-						<p class="card-text">These roads connect rural areas of production to market centres, or other main roads. These roads have lower design specifications than Major District Roads. These roads are looked after by district authorities with the help of State Government Departments. They are also known as Minor District Roads.</p>
-					</div>
-				</div>
-			</div>
 		</div>
 
 
@@ -611,23 +630,35 @@ style="background-color: #09202F;"
 </section>
 
 <section class="ls  s-py-xl-160 s-py-lg-130 s-py-md-90 s-py-60 text-sm-left text-center container-px-0">
-	<div class="container" style="padding-top:50px;">
-		<h3 class="special-heading text-center" style="margin-bottom:30px!important;">
+	
+<div class="row" style="justify-content: end;">
+		<div class="col-md-12">
+		<h3 class="special-heading cus_hh" style="font-size:200px;color:#09202F;">
 			<span class="text-capitalize">
-				Airport Runways
+				Airport
 			</span>
 		</h3>
-		<div class="row" style="background-color: #fff;
-    background-clip: border-box;
-    border: 1px solid rgba(0,0,0,.125);
-    border-radius: .25rem;">
-			<div class="col-12 col-md-6" style="padding:0;">
-				<img src="images/service3.webp" class="img-responsive" alt="img">
+		</div>
+	
+		<div class="col-md-10">
+		<h3 class="special-heading text-center cus_hh" style="font-size:200px;color:#09202F;">
+			<span class="text-capitalize">
+				 Runways
+			</span>
+		</h3>
+		</div>
+	</div>
+
+<div class="container" style="padding-top:50px;">
+		
+		<div class="row justify-content-between " >
+			<div class=" col-md-5" style="padding:0;">
+				<img src="images/air.png" class="img-responsive" alt="img">
 			</div>
-			<div class="col-12 col-md-6" style="padding:0;">
-				<div style="padding:20px;">
-					<h5>Airport Runways</h5>
-					<p class="card-text">A runway is the most important part of any airport. Runways can be unpaved, gravel, asphalt or concrete. Unpaved runways cannot be operated in rainy weather, making the use of such facilities quite limited. To make top layer, a mix of gravel (19mm max size) and polymer-modified bitumen was used. Using such binding is required to make the runway more resistant to rutting in hot weather.</p>
+			<div class="col-md-6 align-content-center" >
+				<div >
+					<h2>Airport Runways</h2>
+					<p style="color:#000;">A runway is the most important part of any airport. Runways can be unpaved, gravel, asphalt or concrete. Unpaved runways cannot be operated in rainy weather, making the use of such facilities quite limited. To make top layer, a mix of gravel (19mm max size) and polymer-modified bitumen was used. Using such binding is required to make the runway more resistant to rutting in hot weather.</p>
 				</div>
 			</div>
 		</div>
