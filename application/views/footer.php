@@ -92,12 +92,13 @@ defined('BASEPATH') or exit('No direct script access allowed');
         .accordion {
             margin-bottom: 16px;
         }
-         .faq-tab {
-font-size: 14px !important;
-margin: 0 10px 0 0!important;
+
+        .faq-tab {
+            font-size: 14px !important;
+            margin: 0 10px 0 0 !important;
         }
     }
-    
+
 
     .question-wrapper {
         display: flex;
@@ -147,7 +148,7 @@ margin: 0 10px 0 0!important;
 </style>
 <hr>
 <section class="py-60" style="padding-bottom:160px;">
-   
+
     <div class="container text-control-1 faqq">
         <h3 class="text-center mb-4">FAQs</h3>
         <div class="d-flex justify-content-md-around justify-content-between mb-4">
@@ -164,7 +165,9 @@ margin: 0 10px 0 0!important;
                     </div><i class="drop fa fa-angle-down" aria-hidden="true"></i>
                 </div>
                 <div class="answer-wrapper">
-                    <p class="answer">We import Viscosity Grade bitumen directly from top refineries of Middle east countries packed & bulk both forms& provide to clients at reasonable price. Refineries specially produce bitumen with our label too.
+                    <p class="answer">We import Viscosity Grade bitumen directly from top refineries of Middle east
+                        countries packed & bulk both forms& provide to clients at reasonable price. Refineries specially
+                        produce bitumen with our label too.
                     </p>
                 </div>
             </div>
@@ -202,7 +205,8 @@ margin: 0 10px 0 0!important;
                     </div><i class="drop fa fa-angle-down" aria-hidden="true"></i>
                 </div>
                 <div class="answer-wrapper">
-                    <p class="answer">We supply Bitumen from Kandla, Mumbai, Mundra, Jaipur, Jodhpur, Pipavav, Vadodara, Hazira & so on.</p>
+                    <p class="answer">We supply Bitumen from Kandla, Mumbai, Mundra, Jaipur, Jodhpur, Pipavav, Vadodara,
+                        Hazira & so on.</p>
                 </div>
             </div>
             <div class="faq accordion">
@@ -214,7 +218,10 @@ margin: 0 10px 0 0!important;
                     </div><i class="drop fa fa-angle-down" aria-hidden="true"></i>
                 </div>
                 <div class="answer-wrapper">
-                    <p class="answer">Yes, we export Bitumen& we are no. 1 Bitumen Exporter in India in December 2021 and Jan 2022. We are the 3rd Largest Importer in packed bitumen category in India. We have pack drums available in 156kg & 180 kg. We export bitumen packed & bulk both forms. We export bitumen in Nepal Birgunj, Biratnagar, Bhairahawa, Nepalgunj, Kakarvitta and Still Going!
+                    <p class="answer">Yes, we export Bitumen& we are no. 1 Bitumen Exporter in India in December 2021
+                        and Jan 2022. We are the 3rd Largest Importer in packed bitumen category in India. We have pack
+                        drums available in 156kg & 180 kg. We export bitumen packed & bulk both forms. We export bitumen
+                        in Nepal Birgunj, Biratnagar, Bhairahawa, Nepalgunj, Kakarvitta and Still Going!
                     </p>
                 </div>
             </div>
@@ -291,7 +298,8 @@ margin: 0 10px 0 0!important;
                     </div><i class="drop fa fa-angle-down" aria-hidden="true"></i>
                 </div>
                 <div class="answer-wrapper">
-                    <p class="answer">We accept Payment Through Bank Transfer, BG (Bank Guarantee), LC (letter of credit) by government approved Financer/ Bank.
+                    <p class="answer">We accept Payment Through Bank Transfer, BG (Bank Guarantee), LC (letter of
+                        credit) by government approved Financer/ Bank.
                     </p>
                 </div>
             </div>
@@ -303,7 +311,8 @@ margin: 0 10px 0 0!important;
                     </div><i class="drop fa fa-angle-down" aria-hidden="true"></i>
                 </div>
                 <div class="answer-wrapper">
-                    <p class="answer">We can Provide FOB shipments/Ex Port, CFR (Cost Freight Rate), CIF (cost Insurance & freight)
+                    <p class="answer">We can Provide FOB shipments/Ex Port, CFR (Cost Freight Rate), CIF (cost Insurance
+                        & freight)
                     </p>
                 </div>
             </div>
@@ -319,7 +328,8 @@ margin: 0 10px 0 0!important;
                     </div><i class="drop fa fa-angle-down" aria-hidden="true"></i>
                 </div>
                 <div class="answer-wrapper">
-                    <p class="answer">VG bitumen is globally preferred to penetration grades (30/40, 60/70, 80/100, and soon), mainly because it is tested and classified more accurately.
+                    <p class="answer">VG bitumen is globally preferred to penetration grades (30/40, 60/70, 80/100, and
+                        soon), mainly because it is tested and classified more accurately.
                     </p>
                 </div>
             </div>
@@ -332,7 +342,8 @@ margin: 0 10px 0 0!important;
                     </div><i class="drop fa fa-angle-down" aria-hidden="true"></i>
                 </div>
                 <div class="answer-wrapper">
-                    <p class="answer">Yes, we have chart or test reports of every shipment as per viscosity, Penetration, Grade temperature & require product details.
+                    <p class="answer">Yes, we have chart or test reports of every shipment as per viscosity,
+                        Penetration, Grade temperature & require product details.
                     </p>
                 </div>
             </div>
@@ -344,7 +355,8 @@ margin: 0 10px 0 0!important;
                     </div><i class="drop fa fa-angle-down" aria-hidden="true"></i>
                 </div>
                 <div class="answer-wrapper">
-                    <p class="answer">Our Bitumen is certified by Refineries & NABL& IIT Roorki laboratory also. We have in house Laboratory also & we do test of every shipment.
+                    <p class="answer">Our Bitumen is certified by Refineries & NABL& IIT Roorki laboratory also. We have
+                        in house Laboratory also & we do test of every shipment.
                     </p>
                 </div>
             </div>
@@ -371,7 +383,7 @@ margin: 0 10px 0 0!important;
 
 
 
-<footer class="page_footer  text-center c-gutter-100 text-sm-left  ds" >
+<footer class="page_footer  text-center c-gutter-100 text-sm-left  ds">
 
     <div class="container">
         <div class="row justify-content-center">
@@ -379,19 +391,26 @@ margin: 0 10px 0 0!important;
             <div class="col-lg-4 col-md-6 order-1 order-lg-1  animate" data-animation="fadeInUp">
                 <div class="fw-divider-space divider-xl-160 divider-lg-130 divider-md-90 divider-60"></div>
                 <a href="<?php echo base_url(); ?>" class="logo">
-                    <img style="width: 290px; max-height:unset;" src="<?php echo base_url(); ?>images/logo12.png" alt="img">
+                    <img style="width: 290px; max-height:unset;" src="<?php echo base_url(); ?>images/logo12.png"
+                        alt="img">
                 </a>
                 <p>
-                    PREMIUM PETRO PRODUCTS. Our firm is manufacturing all types of Emulsion and Modified Bitumen and importing Bitumen (both Bulk and Packed) from Middle East countries.
+                    PREMIUM PETRO PRODUCTS. Our firm is manufacturing all types of Emulsion and Modified Bitumen and
+                    importing Bitumen (both Bulk and Packed) from Middle East countries.
                 </p>
-                <a href="https://www.facebook.com/premiumpetroproducts" rel="noopener noreferrer" target="_blank" class="fab fa-facebook-f rounded-icon bg-icon fs-16" title="facebook"></a>
-                <a href="https://twitter.com/PetroPremium" target="_blank" rel="noopener noreferrer" class="fab fa-twitter rounded-icon bg-icon fs-16" title="telegram"></a>
-                <a href="https://www.linkedin.com/company/premium-petro-products/" rel="noopener noreferrer" target="_blank" class="fab fa-linkedin-in rounded-icon bg-icon fs-16" title="linkedin"></a>
-                <a href="https://www.instagram.com/premium_petro_products/" rel="noopener noreferrer" target="_blank" class="fab fa-instagram rounded-icon bg-icon fs-16" title="instagram"></a>
+                <a href="https://www.facebook.com/premiumpetroproducts" rel="noopener noreferrer" target="_blank"
+                    class="fab fa-facebook-f rounded-icon bg-icon fs-16" title="facebook"></a>
+                <a href="https://twitter.com/PetroPremium" target="_blank" rel="noopener noreferrer"
+                    class="fab fa-twitter rounded-icon bg-icon fs-16" title="telegram"></a>
+                <a href="https://www.linkedin.com/company/premium-petro-products/" rel="noopener noreferrer"
+                    target="_blank" class="fab fa-linkedin-in rounded-icon bg-icon fs-16" title="linkedin"></a>
+                <a href="https://www.instagram.com/premium_petro_products/" rel="noopener noreferrer" target="_blank"
+                    class="fab fa-instagram rounded-icon bg-icon fs-16" title="instagram"></a>
                 <div class="fw-divider-space divider-xl-160 divider-lg-130 divider-md-60 divider-30"></div>
             </div>
 
-            <div class="col-lg-4 col-md-12 ls order-3 order-lg-2 footer-special-column text-center animate" data-animation="fadeInUp">
+            <div class="col-lg-4 col-md-12 ls order-3 order-lg-2 footer-special-column text-center animate"
+                data-animation="fadeInUp">
                 <div class="form-wrapper">
                     <form class="contact-form" method="post" action="<?php echo base_url() ?>thankyou">
                         <div class="row c-mb-20">
@@ -405,7 +424,8 @@ margin: 0 10px 0 0!important;
                             <div class="col-lg-12 text-center">
                                 <div class="form-group has-placeholder">
                                     <label for="name22335x5553">Full Name <span class="required">*</span></label>
-                                    <input type="text" aria-required="true" size="30" value="" name="name" id="name22335x5553" class="form-control" placeholder="Full Name" required>
+                                    <input type="text" aria-required="true" size="30" value="" name="name"
+                                        id="name22335x5553" class="form-control" placeholder="Full Name" required>
                                 </div>
                             </div>
                         </div>
@@ -414,7 +434,9 @@ margin: 0 10px 0 0!important;
                                 <div class="form-group has-placeholder">
                                     <label for="name223355553">Phone Number <span class="required">*</span></label>
 
-                                    <input type="number" aria-required="true" size="30" value="" name="phone" id="name223355553" class="form-control mobile-field" placeholder="Phone Number" required>
+                                    <input type="number" aria-required="true" size="30" value="" name="phone"
+                                        id="name223355553" class="form-control mobile-field" placeholder="Phone Number"
+                                        required>
                                 </div>
                             </div>
                         </div>
@@ -423,7 +445,9 @@ margin: 0 10px 0 0!important;
                                 <div class="form-group has-placeholder">
                                     <label for="message22335553">Message</label>
 
-                                    <textarea aria-required="true" rows="3" cols="45" name="message" id="message22335553" class="form-control" placeholder="Your Message" required></textarea>
+                                    <textarea aria-required="true" rows="3" cols="45" name="message"
+                                        id="message22335553" class="form-control" placeholder="Your Message"
+                                        required></textarea>
                                 </div>
                             </div>
                         </div>
@@ -432,17 +456,21 @@ margin: 0 10px 0 0!important;
                                 width: 100% !important;
                             }
                         </style>
-                        <div class="g-recaptcha" data-sitekey="6LctaaUeAAAAAOrC_x--1CKZlgq4UMq472zj8Bur" data-callback="recaptchaCallback">
+                        <div class="g-recaptcha" data-sitekey="6LctaaUeAAAAAOrC_x--1CKZlgq4UMq472zj8Bur"
+                            data-callback="recaptchaCallback">
                         </div>
                         <div>
-                            <span class="text-danger"><?php if (isset($captcha_error)) {
+                            <span class="text-danger">
+                                <?php if (isset($captcha_error)) {
                                                             echo $captcha_error;
-                                                        } ?></span>
+                                                        } ?>
+                            </span>
                         </div>
                         <div class="row c-mb-10 c-gutter-10">
                             <div class="col-sm-12 mb-0 mt-50">
                                 <div class="form-group">
-                                    <input class="btn btn-gradient big-btn contact-form-submit" type="submit" value="Send message">
+                                    <input class="btn btn-gradient big-btn contact-form-submit" type="submit"
+                                        value="Send message">
                                 </div>
                             </div>
                         </div>
@@ -451,7 +479,8 @@ margin: 0 10px 0 0!important;
                 <h6 class="fs-12 text-uppercase">&copy; Copyright <span class="copyright_year">2021</span>
                     All Rights Reserved</h6>
 
-                <h6 class="fs-12 text-uppercase" style="margin-top:15px!important; font-weight:initial">Designed by <a style="font-weight:bold;" href="https://theodin.in/">The Odin</a> </h6>
+                <h6 class="fs-12 text-uppercase" style="margin-top:15px!important; font-weight:initial">Designed by <a
+                        style="font-weight:bold;" href="https://theodin.in/">The Odin</a> </h6>
             </div>
 
 
@@ -511,7 +540,8 @@ margin: 0 10px 0 0!important;
 </div><!-- eof #canvas -->
 
 
-<a href="https://wa.me/919672007111?text=I'm%20interested%20in%20your%20product" class="float" rel="noopener noreferrer" target="_blank" style="position:fixed;
+<a href="https://wa.me/919672007111?text=I'm%20interested%20in%20your%20product" class="float" rel="noopener noreferrer"
+    target="_blank" style="position:fixed;
 	width:60px;
 	height:60px;
 	bottom:100px;
@@ -538,7 +568,7 @@ margin: 0 10px 0 0!important;
 <script type="text/javascript" src="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
 
 <script>
-    $(document).ready(function() {
+    $(document).ready(function () {
         $('.image-popup-vertical-fit').magnificPopup({
             type: 'image',
             mainClass: 'mfp-with-zoom',
@@ -552,7 +582,7 @@ margin: 0 10px 0 0!important;
                 duration: 300, // duration of the effect, in milliseconds
                 easing: 'ease-in-out', // CSS transition easing function
 
-                opener: function(openerElement) {
+                opener: function (openerElement) {
 
                     return openerElement.is('img') ? openerElement : openerElement.find('img');
                 }
@@ -567,7 +597,7 @@ margin: 0 10px 0 0!important;
     setTimeout(() => {
         $('#contact-pop-up').fadeIn()
     }, 7000)
-    $('#contact-pop-up-close').click(function() {
+    $('#contact-pop-up-close').click(function () {
         $('#contact-pop-up').fadeToggle();
     })
 </script>
@@ -579,11 +609,11 @@ margin: 0 10px 0 0!important;
         //If we managed to get into this function it means that the user checked the checkbox.
         recaptchachecked = true;
     }
-    $('.contact-form-submit').click(function(e) {
+    $('.contact-form-submit').click(function (e) {
         e.preventDefault();
         let check = 0;
 
-        $('.contact-form input').each(function() {
+        $('.contact-form input').each(function () {
             if ($.trim($(this).val()) == '') {
                 check = 1;
                 alert('One or more fields are empty or invalid!')
@@ -623,7 +653,7 @@ margin: 0 10px 0 0!important;
 </script>
 
 <script>
-    $(".question-wrapper").click(function() {
+    $(".question-wrapper").click(function () {
         $('.answer-wrapper').removeClass("expanded")
         $('.drop').removeClass('icon-expanded');
         var container = $(this).parents(".accordion");
@@ -657,7 +687,7 @@ margin: 0 10px 0 0!important;
     $('.faqs-section').hide();
     $('.faq-tab[data-open="company"]').addClass('faq-tab-active');
     $('.faqs-section[data-tab="company"]').show();
-    $('.faq-tab').click(function() {
+    $('.faq-tab').click(function () {
         $('.faq-tab').removeClass('faq-tab-active');
         $(this).addClass('faq-tab-active');
         $('.faqs-section').hide();
@@ -666,8 +696,9 @@ margin: 0 10px 0 0!important;
 </script>
 
 <!-- Google Map Script -->
-<script type="text/javascript" src="https://maps.googleapis.com/maps/api/js?key=AIzaSyC0pr5xCHpaTGv12l73IExOHDJisBP2FK4&callback=initGoogleMap">
-</script>
+<script type="text/javascript"
+    src="https://maps.googleapis.com/maps/api/js?key=AIzaSyC0pr5xCHpaTGv12l73IExOHDJisBP2FK4&callback=initGoogleMap">
+    </script>
 
 <script type="application/ld+json">
     {
@@ -700,26 +731,26 @@ margin: 0 10px 0 0!important;
 </script>
 
 <script>
-$('.testimonials-slider-slick').slick({
-  infinite: true,
-  slidesToShow: 3,
-  slidesToScroll: 1,
-  infinite:false,
-  arrows:true,
-  dots:true,
-  responsive: [
-    {
-      breakpoint: 768,
-      settings: {
-        slidesToShow: 1,
+    $('.testimonials-slider-slick').slick({
+        infinite: true,
+        slidesToShow: 3,
         slidesToScroll: 1,
         infinite: false,
+        arrows: true,
         dots: true,
-        arrows:true
-      }
-    }
-  ]
-})
+        responsive: [
+            {
+                breakpoint: 768,
+                settings: {
+                    slidesToShow: 1,
+                    slidesToScroll: 1,
+                    infinite: false,
+                    dots: true,
+                    arrows: true
+                }
+            }
+        ]
+    })
 </script>
 
 
@@ -729,4 +760,3 @@ $('.testimonials-slider-slick').slick({
 </body>
 
 </html>
-

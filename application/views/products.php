@@ -22,6 +22,11 @@ defined('BASEPATH') or exit('No direct script access allowed');
 	.step-wrap__text{
 	color:black
 	}
+	.ttte img:hover{
+		transform: scale(1.1);
+		transition: 2.5s ease;
+		cursor: pointer;
+	}
 </style>
 <section class="page_title ds  s-pb-xl-80  s-pb-lg-100  s-pb-md-90 s-pt-md-250 s-pt-180 s-pb-60"
 	style="background-image:url('images/Product-Page-Banner_2.jpg'); background-size:cover!important; background-repeat:no-repeat!important; ">
