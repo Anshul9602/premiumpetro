@@ -21542,7 +21542,7 @@ p.special-heading.text-center {
 
 .service-single.with-icon.layout2 {
     overflow: auto;
-    padding: 55px;
+    padding: 25px 15px;
     position: static;
     transition: none
 }
@@ -21567,25 +21567,13 @@ p.special-heading.text-center {
 
 .service-single.with-icon.layout2 h6,
 .service-single.with-icon.layout2 h5 {
-    margin-bottom: 20px;
+   
     margin-top: 20px;
-    padding-bottom: 25px;
+    padding-bottom: 0px;
     position: relative
 }
 
-.service-single.with-icon.layout2 h6:after,
-.service-single.with-icon.layout2 h5:after {
-    background: #09202F;
-    bottom: 0;
-    content: "";
-    display: inline-block;
-    height: 2px;
-    left: 50%;
-    position: absolute;
-    -webkit-transform: translateX(-50%);
-    transform: translateX(-50%);
-    width: 50px
-}
+
 
 .service-single.with-icon.layout2 a.btn {
     border-radius: 50%;
@@ -21603,7 +21591,7 @@ p.special-heading.text-center {
 }
 
 .service-v2 [class*=col-]:nth-child(1) .service-single.with-icon.layout2:hover {
-    background-image: linear-gradient(to top, #09202F 0%, #dd9044 100%)
+    background-image: #09202F;
 }
 
 .service-v2 [class*=col-]:nth-child(1) .service-single.with-icon.layout2:hover .icon-styled i {
@@ -21615,7 +21603,7 @@ p.special-heading.text-center {
 }
 
 .service-v2 [class*=col-]:nth-child(1) .service-single.with-icon.layout2 .icon-styled i {
-    background: linear-gradient(to top, #09202F 0%, #dd9044 100%);
+    background: #fff;
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent
 }
@@ -21629,7 +21617,7 @@ p.special-heading.text-center {
 }
 
 .service-v2 [class*=col-]:nth-child(2) .service-single.with-icon.layout2:hover {
-    background-image: linear-gradient(to top, #09202F 0%, #dd9044 100%)
+    background-image: #09202F;
 }
 
 .service-v2 [class*=col-]:nth-child(2) .service-single.with-icon.layout2:hover .icon-styled i {
@@ -21641,7 +21629,7 @@ p.special-heading.text-center {
 }
 
 .service-v2 [class*=col-]:nth-child(2) .service-single.with-icon.layout2 .icon-styled i {
-    background: linear-gradient(to top, #09202F 0%, #dd9044 100%);
+    background:#fff;
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent
 }
@@ -21655,7 +21643,7 @@ p.special-heading.text-center {
 }
 
 .service-v2 [class*=col-]:nth-child(3) .service-single.with-icon.layout2:hover {
-    background-image: linear-gradient(to top, #09202F 0%, #dd9044 100%)
+    background-image: #09202F;
 }
 
 .service-v2 [class*=col-]:nth-child(3) .service-single.with-icon.layout2:hover .icon-styled i {
@@ -21667,7 +21655,7 @@ p.special-heading.text-center {
 }
 
 .service-v2 [class*=col-]:nth-child(3) .service-single.with-icon.layout2 .icon-styled i {
-    background: linear-gradient(to top, #09202F 0%, #dd9044 100%);
+    background: #fff;
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent
 }
@@ -21681,7 +21669,7 @@ p.special-heading.text-center {
 }
 
 .service-v2 [class*=col-]:nth-child(4) .service-single.with-icon.layout2:hover {
-    background-image: linear-gradient(to top, #09202F 0%, #dd9044 100%)
+    background-image: #09202F;
 }
 
 .service-v2 [class*=col-]:nth-child(4) .service-single.with-icon.layout2:hover .icon-styled i {
@@ -21693,7 +21681,7 @@ p.special-heading.text-center {
 }
 
 .service-v2 [class*=col-]:nth-child(4) .service-single.with-icon.layout2 .icon-styled i {
-    background: linear-gradient(to top, #09202F 0%, #dd9044 100%);
+    background: #fff;
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent
 }
@@ -21707,7 +21695,7 @@ p.special-heading.text-center {
 }
 
 .service-v2 [class*=col-]:nth-child(5) .service-single.with-icon.layout2:hover {
-    background-image: linear-gradient(to top, #09202F 0%, #dd9044 100%)
+    background-image: #09202F;
 }
 
 .service-v2 [class*=col-]:nth-child(5) .service-single.with-icon.layout2:hover .icon-styled i {

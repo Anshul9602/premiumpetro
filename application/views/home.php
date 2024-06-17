@@ -282,30 +282,32 @@ defined('BASEPATH') or exit('No direct script access allowed');
 <section class="ls main-testimonial s-py-xl-160 s-py-lg-130 s-py-md-90 s-py-60">
 	<div class="container">
 		<div class="row justify-content-around">
-			<div class="col-12 col-lg-3 text-center">
-				<h3 class="special-heading text-center">
+			<div class="col-12 col-lg-3 row text-center">
+				<h3 class="special-heading text-center col-12">
 					<span class="text-capitalize">
 						ABOUT US
 					</span>
 				</h3>
-				<div class="divider-30"></div>
-				<a class="btn btn-gradient big-btn" href="<?php echo base_url() ?>aboutus">Know More</a>
+				<div class="col-12">
+				<a class="btn btn-gradient" href="<?php echo base_url() ?>aboutus">Know More</a>
+				</div>
+				
 			</div>
 			<div class="col-12 col-lg-6 text-center">
 				<div class="divider-35 hidden-above-lg"></div>
 				<div class="divider--5"></div>
 
-				<p style="text-align: justify;">
+				<p class="excerpt" style="text-align: justify;color:#000;">
 					Our firm is manufacturing all types of Emulsion and Modified Bitumen and
 					importing Bitumen (both Bulk and Packed) from Middle East countries.
 					Premium Petro Products is also the Empanelled Supplier authorized by the Rajasthan PWD.
 				</p>
-				<p class="excerpt" style="text-align: justify;">
+				<p class="excerpt" style="text-align: justify;color:#000;">
 
-					<i> We are now PWD Empanelled authorized Bitumen Supplier by the Government of Uttarakhand. </i>
+					 We are now PWD Empanelled authorized Bitumen Supplier by the Government of Uttarakhand. 
 
 				</p>
-				<p class="excerpt" style="text-align: justify;">
+				<p class="excerpt" style="text-align: justify;color:#000;">
 					Source Imported Viscosity Grade Bitumen, Penetration Grade Bitumen, Bitumen Emulsion And More, At
 					Fair Prices!
 				</p>
@@ -325,56 +327,46 @@ defined('BASEPATH') or exit('No direct script access allowed');
 		</div>
 	</div>
 </section>
-<section class="ds text-sm-left text-center container-px-0 c-gutter-0">
-	<div class="container-fluid">
+<section class=" text-sm-left text-center container-px-0  ">
+	<div class="container mt-md-5 mt-3 pt-4">
 		<div class="row service-v2">
-			<div class="col-12 col-sm-4">
-				<div class="icon-box service-single with-icon layout2 ds text-center" style=" background:linear-gradient(0deg, rgba(0,0,0, 0.3), rgba(0,0,0, 0.3)), url('images/Mission-Vission-min.jpg'); background-size:cover; background-position:center; background-repeat:no-repeat;">
-
-					<a class="link-icon" href="#">
-						<div class="icon-styled  fs-50">
-							<i class="ico ico-extraction"></i>
-						</div>
-					</a>
-					<a href="<?php echo base_url()  ?>aboutus#our-vision">
-						<h5>
-							Mission & Vision
-						</h5>
+			<div class="col-md-4 " >
+				
+					
+					<a href="<?php echo base_url()  ?>aboutus#our-history" >
+						
+					<img src="images/our.png" alt="img" width="100%" >
+					
 					</a>
 
 
-				</div>
+			
 			</div>
-			<div class="col-12 col-sm-4">
-				<div class="icon-box service-single with-icon layout2 ds text-center" style=" background:linear-gradient(0deg, rgba(0,0,0, 0.3), rgba(0,0,0, 0.3)), url('images/Our-History-min.jpg'); background-size:cover; background-position:center; background-repeat:no-repeat;">
-					<a class="link-icon" href="#">
-						<div class="icon-styled  fs-50">
-							<i class="ico ico-oil-tanker"></i>
-						</div>
-					</a>
-					<a href="<?php echo base_url()  ?>aboutus#our-history">
-						<h5>
-							Our History
-						</h5>
+			<div class="col-md-4 " >
+				
+					
+					<a href="<?php echo base_url()  ?>aboutus#our-reach" >
+						
+					<img src="images/our_reach.png" alt="img" width="100%" >
+					
 					</a>
 
 
-				</div>
+			
 			</div>
-			<div class="col-12 col-sm-4">
-				<div class="icon-box service-single with-icon layout2 ds text-center" style=" background:linear-gradient(0deg, rgba(0,0,0, 0.3), rgba(0,0,0, 0.3)), url('images/Our-Reach-min.jpg'); background-size:cover; background-position:center; background-repeat:no-repeat;">
-					<a class="link-icon" href="#">
-						<div class="icon-styled  fs-50">
-							<i class="ico ico-pipe"></i>
-						</div>
+			<div class="col-md-4 " >
+				
+					
+					<a href="<?php echo base_url()  ?>aboutus#our-vision" >
+						
+					<img src="images/mission.png" alt="img" width="100%" >
+					
 					</a>
-					<a href="<?php echo base_url()  ?>aboutus#our-reach">
-						<h5>
-							Our Reach
-						</h5>
-					</a>
-				</div>
+
 			</div>
+		
+		
+		
 
 		</div>
 	</div>
@@ -385,16 +377,12 @@ defined('BASEPATH') or exit('No direct script access allowed');
 	<div class="container home-latest-posts">
 		<div class="row">
 			<div class="col-12">
-				<h3 class="special-heading text-center">
+				<h3 class="special-heading text-start">
 					<span class="text-capitalize">
 						Latest Posts
 					</span>
 				</h3>
-				<p class="special-heading text-center">
-					<span class="text-capitalize color-darkgrey bold">
-						our blog
-					</span>
-				</p>
+				
 				<div class="divider-50 hidden-below-lg"></div>
 				<div class="divider-30 hidden-above-lg"></div>
 				<div class="shortcode-posts row tiled-layout c-gutter-30 c-mb-30">
@@ -495,9 +483,12 @@ defined('BASEPATH') or exit('No direct script access allowed');
 	</div>
 </section>
 
-<section class="ls  s-py-xl-160 s-py-lg-130 s-py-md-90 s-py-60 text-sm-left text-center container-px-0">
+<section class="ls  s-py-xl-160 s-py-lg-130 s-py-md-90 s-py-60 text-sm-left text-center container-px-0"
+
+style="background-color: #09202F;"
+>
 	<div class="container" style="padding-bottom:20px; padding-top:90px;">
-		<h3 class="special-heading text-center" style="margin-bottom:30px!important;">
+		<h3 class="special-heading text-center" style="margin-bottom:30px!important;color:#fff;">
 			<span class="text-capitalize">
 				Transportation System
 			</span>
