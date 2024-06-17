@@ -139,25 +139,7 @@ defined('BASEPATH') or exit('No direct script access allowed');
 				</div><!-- eof .container-fluid -->
 			</li>
 
-			<!--<li class="ds cover-image">
-    			<img src="assets/img/Banner-5.jpg" alt="img">
-				<div class="container-fluid">
-					<div class="row">
-						<div class="col-md-12">
-							<div class="intro_layers_wrapper">
-								<div class="intro_layers1">
-									<div class="intro_layer">
-										<h2 class="text-capitalize intro_featured_word intro_featured_word1" style='font-weight:400; text-transform:uppercase!important;'>
-										Ranked as No. 1 Exporter for Bitumen and as 3rd Largest Importer for Packed Bitumen in India
-										</h2>
-										<a href="<?php echo base_url() ?>contact" class="btn btn-outline-darkgrey big-btn">get a quote</a>
-									</div>
-								</div>
-							</div>
-						</div>
-					</div>
-				</div>
-			</li>-->
+			
 
 
 

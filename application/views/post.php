@@ -198,6 +198,16 @@ defined('BASEPATH') or exit('No direct script access allowed');
 					color: #fff;
 					font-size: 14px;
 				}
+				b, strong {
+    color: #000;
+    font-weight: 700;
+}
+@media (max-width: 768px) {
+.cus_h{
+	max-width: 100% !important;
+	font-size: 18px;
+}
+}
 			</style>
 
 			<div class="top-bar" style="background:#000; padding:5px 0;">
@@ -250,26 +260,6 @@ defined('BASEPATH') or exit('No direct script access allowed');
 				</div>
 			</div>
 
-			<!-- <section class="top_header_area">
-						<div class="container">
-							<ul class="nav navbar-nav top_nav">
-								<li><a href="#"><i class="fa fa-phone"></i>+91 8441095087</a></li>
-
-								<li><a href="#"><i class="fa fa-map-marker"></i>Jaipur, Rajasthan, India</a></li>
-								<li><a href="assets/brochure.pdf" download="" target="_blank" class="header_meta">
-									<i class="fa fa-download"></i>
-									Brochure
-								</a></li>
-							</ul>
-							<ul class="nav navbar-nav navbar-right social_nav">
-								<li><a href="https://www.facebook.com/premiumpetroproducts" target="_blank"><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
-
-								<li><a href="https://www.instagram.com/premium_petro_products/" target="_blank"><i class="fa fa-instagram" aria-hidden="true"></i></a></li>
-
-								<li><a href="https://www.linkedin.com/company/premium-petro-products/" target="_blank"><i class="fa fa-linkedin" aria-hidden="true"></i></a></li>
-							</ul>
-						</div>
-				</section> -->
 
 			<div class="header_absolute">
 				<!--eof topline-->
@@ -344,7 +334,7 @@ defined('BASEPATH') or exit('No direct script access allowed');
 				</header>
 			</div>
 
-			<section class="page_title ds s-parallax s-pb-xl-80  s-pb-lg-100  s-pb-md-90 s-pt-md-190 s-pt-180 s-pb-60">
+			<section class="page_title ds s-parallax s-pb-xl-80  s-pb-lg-100  s-pb-md-90 s-pt-md-250 s-pt-180 s-pb-60">
 				<div class="container">
 					<div class="row">
 						<div class="col-md-12 text-center">
@@ -374,24 +364,25 @@ defined('BASEPATH') or exit('No direct script access allowed');
 
 			<section class="ls ms no-sidebar " style="margin-bottom:100px;">
 				<br />
-				<div class="container">
+				<div class="container pt-md-5 mt-md-5  pb-md-5 ">
 					<div class="row">
 						<?php if ($cad == '0') { ?>
 						<main class="col-md-12">
-							<article
-								class="vertical-item single-post bordered post type-post status-publish format-standard has-post-thumbnail">
+							<div
+								class="vertical-item single-post post type-post status-publish format-standard has-post-thumbnail">
 
-								<!-- .post-thumbnail -->
-								<div class="item-content">
 
 									<div class="entry-content">
 
-										<h1 style="color: #09445a; margin-bottom: 10px;    font-weight: 700;">
-											<?php echo $post['heading'] ?><br>
-
-										</h1>
-										<p>Short Analysis
+									<p class="text-center">
+											
+											<span style="padding:0; color:#1475B5;font-weight: 500;">
+												<?php echo $post['date'] ?></span>&nbsp;&nbsp;|&nbsp;&nbsp;
+												<span style="padding:0; color:#1475B5;font-weight: 500;">
+												<?php echo $post['author'] ?>
+											</span>
 										</p>
+										<h4 class="text-center m-auto cus_h pb-3" style="max-width:80%;"><?php echo $post['heading'] ?><br></h4>
 										<div style="height: 4px;background-color:#ffe300;margin:0 5px;"></div>
 										<div class="item-media post-thumbnail mt-3">
 											<img src="<?php echo base_url() . $post['image'] ?>" alt="img">
@@ -525,44 +516,44 @@ defined('BASEPATH') or exit('No direct script access allowed');
 
 									</div>
 
-									<!-- .entry-content -->
-								</div>
-								<!-- .item-content -->
-							</article>
+							
+							</div>
 						</main>
 
 						<?php }else { ?>
 
-						<main class="col-12">
-							<article
-								class="vertical-item single-post bordered post type-post status-publish format-standard has-post-thumbnail">
 
-								<!-- .post-thumbnail -->
-								<div class="item-content">
+
+
+						<main class="col-12">
+							<div
+								class="vertical-item single-post post type-post status-publish format-standard has-post-thumbnail">
+
+							
 
 									<div class="entry-content">
 
-										<p class="excerpt">
-											<?php echo $post['heading'] ?><br>
-											<span style="padding:0; color:#ccc;"><i class="fa fa-clock-o"
-													aria-hidden="true"></i>&nbsp;&nbsp;
-												<?php echo $post['date'] ?>&nbsp;&nbsp;<i class="fa fa-pencil"
-													aria-hidden="true"></i>&nbsp;&nbsp;
+										<p class="text-center">
+											
+											<span style="padding:0; color:#1475B5;font-weight: 500;">
+												<?php echo $post['date'] ?></span>&nbsp;&nbsp;|&nbsp;&nbsp;
+												<span style="padding:0; color:#1475B5;font-weight: 500;">
 												<?php echo $post['author'] ?>
 											</span>
 										</p>
-										<div class="item-media post-thumbnail">
+										<h4 class="text-center m-auto cus_h" style="max-width:80%;"><?php echo $post['heading'] ?><br></h4>
+										<div class="item-media post-thumbnail mt-md-5 mt-3">
 											<img src="<?php echo base_url() . $post['image'] ?>" alt="img">
-										</div> <br />
-										<div class="post-content">
+										</div> 
+										<div class="post-content mt-md-5 mt-3" style="color:#000;">
+											<h5>Introduction</h5>
 											<?php echo $post['content'] ?>
 										</div>
 									</div>
 
-									<!-- .entry-content -->
-								</div>
+							
 								<!-- .item-content -->
-							</article>
+							</div>
 						</main>
 
 						<?php } ?>

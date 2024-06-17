@@ -35,10 +35,12 @@ table {
 }
 
 table thead tr td{
-    background-color:#dd9044;
+    background-color:#09202F;
     color:#fff;
-    font-weight:700;
-
+    font-weight:400;
+	padding: 10px 10px;
+text-align: center;
+font-size: 18px;
 }
 </style>
 <section class="page_title s-pb-xl-80  s-pb-lg-100  s-pb-md-90 s-pt-md-190 s-pt-180 s-pb-60" style="background-image:url('images/Prices-Page-Banner_2.jpg'); background-size:cover!important; background-repeat:no-repeat!important; background-position:center!important;">
@@ -60,12 +62,6 @@ table thead tr td{
 				</div>
 
 			</div>
-
-
-
-
-
-
 		</div>
 	</div>
 </section>
@@ -75,16 +71,17 @@ table thead tr td{
 	<div class="container">
 		<div class="row">
 			<div class="col-sm-12 text-center">
-				<br />
+			<h6 class="special-heading mt-md-5 mt-3">Refinery Rates are subject to change every 15 (fifteen) days. </h6>
+			
 				<h2 class="special-heading ">
 					<span class="" style="text-transform:uppercase;">
-						<?php echo date('j<\s\up>S</\s\up>',strtotime($pricedate['start_date'])); ?>-<?php echo date('j<\s\up>S</\s\up>',strtotime($pricedate['end_date'])); ?> <?php echo date('F',strtotime($pricedate['end_date'])); ?> <?php echo date('Y',strtotime($pricedate['end_date'])); ?>
+						Rate: <?php echo date('j<\s\up>S</\s\up>',strtotime($pricedate['start_date'])); ?>-<?php echo date('j<\s\up>S</\s\up>',strtotime($pricedate['end_date'])); ?> <?php echo date('F',strtotime($pricedate['end_date'])); ?> <?php echo date('Y',strtotime($pricedate['end_date'])); ?>
 					</span>
 				</h2>
-				<h6>Refinery Rates are subject to change every 15 (fifteen) days. </h6>
+		
 
 				<div class="divider-line bg-maincolor text-center"></div>
-				<div class="fw-divider-space divider-30"></div> <br />
+				
 			</div>
 		</div>
 
@@ -96,15 +93,13 @@ table thead tr td{
 
 
 
-
-
 <section style="padding-bottom:50px; padding-top:25px;">
 	<div class="container">
-		<h3 class="special-heading ">
+		<h5 class="special-heading ">
 			<span class="text-capitalize">
 				VG-10 Bulk
 			</span>
-		</h3>
+		</h5>
 		<div class="row">
 			<div class="col-12">
 				<table>
@@ -114,10 +109,7 @@ table thead tr td{
 							<td>REFINERIES</td>
 							<td>NEW RATE</td>
 							<td> OLD RATE
-								<br />
-								<small>
-									<?php echo date('j<\s\up>S</\s\up> M',strtotime($pricedate['start_date'] . '-15 days')); ?>-<?php echo date('j<\s\up>S</\s\up> M',strtotime($pricedate['end_date'] . '-15 days')); ?> <?php echo date('Y',strtotime($pricedate['end_date'])); ?>
-								</small>
+								
 							</td>
 							<td>DIFFERENCE</td>
 						</tr>
@@ -167,11 +159,11 @@ table thead tr td{
 
 <section style="padding-bottom:50px; padding-top:25px;">
 	<div class="container">
-		<h3 class="special-heading ">
+		<h5 class="special-heading ">
 			<span class="text-capitalize">
 				VG-30 Bulk
 			</span>
-		</h3>
+		</h5>
 		<div class="row">
 			<div class="col-12">
 				<table>
@@ -181,10 +173,7 @@ table thead tr td{
 							<td>REFINERIES</td>
 							<td>NEW RATE</td>
 							<td> OLD RATE
-								<br />
-								<small>
-								<?php echo date('j<\s\up>S</\s\up> M',strtotime($pricedate['start_date'] . '-15 days')); ?>-<?php echo date('j<\s\up>S</\s\up> M',strtotime($pricedate['end_date'] . '-15 days')); ?> <?php echo date('Y',strtotime($pricedate['end_date'])); ?>
-								</small>
+								
 							</td>
 							<td>DIFFERENCE</td>
 						</tr>
@@ -234,11 +223,11 @@ table thead tr td{
 
 <section style="padding-bottom:200px; padding-top:25px;">
 	<div class="container">
-		<h3 class="special-heading ">
+		<h5 class="special-heading ">
 			<span class="text-capitalize">
 				VG-40 Bulk
 			</span>
-		</h3>
+		</h5>
 		<div class="row">
 			<div class="col-12">
 				<table>
@@ -248,10 +237,7 @@ table thead tr td{
 							<td>REFINERIES</td>
 							<td>NEW RATE</td>
 							<td> OLD RATE
-								<br />
-								<small>
-								<?php echo date('j<\s\up>S</\s\up> M',strtotime($pricedate['start_date'] . '-15 days')); ?>-<?php echo date('j<\s\up>S</\s\up> M',strtotime($pricedate['end_date'] . '-15 days')); ?> <?php echo date('Y',strtotime($pricedate['end_date'])); ?>
-								</small>
+								
 							</td>
 							<td>DIFFERENCE</td>
 						</tr>
