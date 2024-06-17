@@ -8,18 +8,21 @@ defined('BASEPATH') or exit('No direct script access allowed');
 	.slick-next:before {
 		color: #000;
 	}
-.tarns .card{
-	background-color: transparent !important;
-	border:none !important;
-	border-radius: 0 !important;
-	color: #FFF !important;
-}
-.tarns .card-body h5{
-color: #FFF !important;
-}
-.tarns .card img{
-width: 150px;
-}
+
+	.tarns .card {
+		background-color: transparent !important;
+		border: none !important;
+		border-radius: 0 !important;
+		color: #FFF !important;
+	}
+
+	.tarns .card-body h5 {
+		color: #FFF !important;
+	}
+
+	.tarns .card img {
+		width: 150px;
+	}
 
 	.icon-styled i {
 		width: auto;
@@ -60,6 +63,9 @@ width: 150px;
 	.transport-card-body {
 		text-align: center;
 	}
+	.row{
+		margin:0px;
+	}
 
 	@media(max-width:1600px) {
 		.page_slider .intro_layers1 {
@@ -87,6 +93,10 @@ width: 150px;
 			text-align: center;
 		}
 
+		.cus_hh {
+			font-size: 40px !important;
+		}
+
 		.home-latest-posts {
 			padding-bottom: 114px !important;
 		}
@@ -98,14 +108,15 @@ width: 150px;
 			margin-bottom: 20px;
 			text-align: center;
 		}
-			.home-latest-posts {
-				padding-bottom: 164px !important;
-			}
 
-			.home-latest-posts {
-				padding-bottom: 104px !important;
-			}
-		
+		.home-latest-posts {
+			padding-bottom: 164px !important;
+		}
+
+		.home-latest-posts {
+			padding-bottom: 104px !important;
+		}
+
 	}
 </style>
 <h1 style="display:none">preimium petro</h1>
@@ -150,7 +161,7 @@ width: 150px;
 				</div><!-- eof .container-fluid -->
 			</li>
 
-			
+
 
 
 
@@ -300,9 +311,9 @@ width: 150px;
 					</span>
 				</h3>
 				<div class="col-12">
-				<a class="btn btn-gradient" href="<?php echo base_url() ?>aboutus">Know More</a>
+					<a class="btn btn-gradient" href="<?php echo base_url() ?>aboutus">Know More</a>
 				</div>
-				
+
 			</div>
 			<div class="col-12 col-lg-6 text-center">
 				<div class="divider-35 hidden-above-lg"></div>
@@ -315,7 +326,7 @@ width: 150px;
 				</p>
 				<p class="excerpt" style="text-align: justify;color:#000;">
 
-					 We are now PWD Empanelled authorized Bitumen Supplier by the Government of Uttarakhand. 
+					We are now PWD Empanelled authorized Bitumen Supplier by the Government of Uttarakhand.
 
 				</p>
 				<p class="excerpt" style="text-align: justify;color:#000;">
@@ -341,44 +352,35 @@ width: 150px;
 <section class=" text-sm-left text-center container-px-0  ">
 	<div class="container mt-md-5 mt-3 pt-4">
 		<div class="row service-v2">
-			<div class="col-md-4 " >
-				
-					
-					<a href="<?php echo base_url()  ?>aboutus#our-history" >
-						
-					<img src="images/our.png" alt="img" width="100%" >
-					
-					</a>
+			<div class="col-md-4 mt-3">
 
 
-			
-			</div>
-			<div class="col-md-4 " >
-				
-					
-					<a href="<?php echo base_url()  ?>aboutus#our-reach" >
-						
-					<img src="images/our_reach.png" alt="img" width="100%" >
-					
-					</a>
+				<a href="<?php echo base_url()  ?>aboutus#our-history">
+
+					<img src="images/our.png" alt="img" width="100%">
+
+				</a>
 
 
-			
-			</div>
-			<div class="col-md-4 " >
-				
-					
-					<a href="<?php echo base_url()  ?>aboutus#our-vision" >
-						
-					<img src="images/mission.png" alt="img" width="100%" >
-					
-					</a>
 
 			</div>
-		
-		
-		
+			<div class="col-md-4 mt-3">
 
+
+				<a href="<?php echo base_url()  ?>aboutus#our-reach">
+
+					<img src="images/our_reach.png" alt="img" width="100%">
+
+				</a>
+			</div>
+			<div class="col-md-4 mt-3">
+
+				<a href="<?php echo base_url()  ?>aboutus#our-vision">
+
+					<img src="images/mission.png" alt="img" width="100%">
+				</a>
+
+			</div>
 		</div>
 	</div>
 </section>
@@ -393,7 +395,7 @@ width: 150px;
 						Latest Posts
 					</span>
 				</h3>
-				
+
 				<div class="divider-50 hidden-below-lg"></div>
 				<div class="divider-30 hidden-above-lg"></div>
 				<div class="shortcode-posts row tiled-layout c-gutter-30 c-mb-30">
@@ -494,10 +496,7 @@ width: 150px;
 	</div>
 </section>
 
-<section class="ls  s-py-xl-160 s-py-lg-130 s-py-md-90 s-py-60 text-sm-left text-center container-px-0 tarns"
-
-style="background-color: #09202F;"
->
+<section class="ls  s-py-xl-160 s-py-lg-130 s-py-md-90 s-py-60 text-sm-left text-center container-px-0 tarns" style="background-color: #09202F;">
 	<div class="container" style="padding-bottom:20px; padding-top:90px;">
 		<h3 class="special-heading text-center" style="margin-bottom:30px!important;color:#fff;">
 			<span class="text-capitalize">
@@ -558,67 +557,67 @@ style="background-color: #09202F;"
 	</div>
 </section>
 
-<section class="ls  s-py-xl-160 s-py-lg-130 s-py-md-90 s-py-60 text-sm-left text-center container-px-0">
+<section class="ls  s-py-xl-160 s-py-lg-130 s-py-md-90 s-py-60 text-sm-left text-center container-px-0 mt-5">
 	<div class="row" style="justify-content: end;">
-		<div class="col-md-4">
-		<h3 class="special-heading cus_hh" style="font-size:130px;color:#09202F;">
-			<span class="text-capitalize">
-				Road
-			</span>
-		</h3>
+		<div class="col-md-4 col-5">
+			<h3 class="special-heading cus_hh" style="font-size:130px;color:#09202F;">
+				<span class="text-capitalize">
+					Road
+				</span>
+			</h3>
 		</div>
-		<div class="col-md-8">
+		<div class="col-md-8 col-7">
 			<img src="assets/road.png" alt="img" width="100%">
 		</div>
 		<div class="col-md-10">
-		<h3 class="special-heading text-center cus_hh" style="font-size:150px;color:#09202F;">
-			<span class="text-capitalize">
-				 Construction
-			</span>
-		</h3>
+			<h3 class="special-heading text-center cus_hh" style="font-size:150px;color:#09202F;">
+				<span class="text-capitalize">
+					Construction
+				</span>
+			</h3>
 		</div>
 	</div>
 	<div class="container" style="padding-bottom:20px; padding-top:50px;">
-		
+
 		<div class="row justify-content-between">
-			<div class="col-md-5 text-center mt-3" >
-					<img src="images/roads/road1.png" class="card-img-top" alt="..." style="width:100%">				
+			<div class="col-md-5 text-center mt-3">
+				<img src="images/roads/road1.png" class="card-img-top" alt="..." style="width:100%">
 			</div>
 			<div class="col-md-6 mt-md-3 mt-4" style="    align-items: center;    display: flex;">
-					<div>
+				<div>
 					<h2>National Highways</h2>
 					<p style="color:#000;">The National highways in India are a network of trunk roads owned by the Ministry of Road Transport and Highways. They connect important cities, towns, ports etc. of different states. They may even connect the neighbouring countries. Most of the existing highways are now four-lane roads, much of this is being expanded to six or more lanes. National Highways constitute 2.7% of India's total road network.</p>
-					</div>
+				</div>
 			</div>
 			<div class="divider-50 hidden-above-lg"></div>
 			<div class="col-md-6 mt-3 " style="    align-items: center;    display: flex;">
-					<div>
+				<div>
 					<h2>State Highways</h2>
-						<p style="color:#000;">This is the network of roads maintained by the state governments. These roads are constructed and managed by the states' Public Works Department. The state highways are usually roads that link important cities, towns and district headquarters within the state and connect them with National Highways or State Highways of neighbouring states.</p>
-					</div>
+					<p style="color:#000;">This is the network of roads maintained by the state governments. These roads are constructed and managed by the states' Public Works Department. The state highways are usually roads that link important cities, towns and district headquarters within the state and connect them with National Highways or State Highways of neighbouring states.</p>
+				</div>
 			</div>
-			<div class="col-md-5 text-center mt-md-3 mt-4" >
-					<img src="images/roads/road2.png" class="card-img-top" alt="..." style="width:100%">				
+			<div class="col-md-5 text-center mt-md-3 mt-4">
+				<img src="images/roads/road2.png" class="card-img-top" alt="..." style="width:100%">
 			</div>
 			<div class="divider-50 hidden-above-lg"></div>
-			<div class="col-md-5 text-center mt-3" >
-					<img src="images/roads/road3.png" class="card-img-top" alt="..." style="width:100%">				
+			<div class="col-md-5 text-center mt-3">
+				<img src="images/roads/road3.png" class="card-img-top" alt="..." style="width:100%">
 			</div>
 			<div class="col-md-6 mt-md-3 mt-4" style="    align-items: center;    display: flex;">
-					<div>
+				<div>
 					<h2>Major District Roads</h2>
-						<p style="color:#000;">These are the roads within a district connecting market and production areas to state or national Highways or railways stations. The MDR has lower speed and geometric design specifications than National Highways or State Highways.</p>
-					</div>
+					<p style="color:#000;">These are the roads within a district connecting market and production areas to state or national Highways or railways stations. The MDR has lower speed and geometric design specifications than National Highways or State Highways.</p>
+				</div>
 			</div>
 			<div class="divider-50 hidden-above-lg"></div>
 			<div class="col-md-6 mt-3" style="    align-items: center;    display: flex;">
-					<div>
+				<div>
 					<h2>Other District Roads</h2>
-						<p style="color:#000;">These roads connect rural areas of production to market centres, or other main roads. These roads have lower design specifications than Major District Roads. These roads are looked after by district authorities with the help of State Government Departments. They are also known as Minor District Roads.</p>
-					</div>
+					<p style="color:#000;">These roads connect rural areas of production to market centres, or other main roads. These roads have lower design specifications than Major District Roads. These roads are looked after by district authorities with the help of State Government Departments. They are also known as Minor District Roads.</p>
+				</div>
 			</div>
-			<div class="col-md-5 text-center mt-md-3 mt-4" >
-					<img src="images/roads/road4.png" class="card-img-top" alt="..." style="width:100%">				
+			<div class="col-md-5 text-center mt-md-3 mt-4">
+				<img src="images/roads/road4.png" class="card-img-top" alt="..." style="width:100%">
 			</div>
 
 		</div>
@@ -629,34 +628,34 @@ style="background-color: #09202F;"
 	</div>
 </section>
 
-<section class="ls  s-py-xl-160 s-py-lg-130 s-py-md-90 s-py-60 text-sm-left text-center container-px-0">
-	
-<div class="row" style="justify-content: end;">
+<section class="ls  s-py-xl-160 s-py-lg-130 s-py-md-90 s-py-60 text-sm-left text-center container-px-0 mt-5">
+
+	<div class="row" style="justify-content: end;">
 		<div class="col-md-12">
-		<h3 class="special-heading cus_hh" style="font-size:200px;color:#09202F;">
-			<span class="text-capitalize">
-				Airport
-			</span>
-		</h3>
+			<h3 class="special-heading cus_hh" style="font-size:200px;color:#09202F;">
+				<span class="text-capitalize">
+					Airport
+				</span>
+			</h3>
 		</div>
-	
+
 		<div class="col-md-10">
-		<h3 class="special-heading text-center cus_hh" style="font-size:200px;color:#09202F;">
-			<span class="text-capitalize">
-				 Runways
-			</span>
-		</h3>
+			<h3 class="special-heading text-center cus_hh" style="font-size:200px;color:#09202F;">
+				<span class="text-capitalize">
+					Runways
+				</span>
+			</h3>
 		</div>
 	</div>
 
-<div class="container" style="padding-top:50px;">
-		
-		<div class="row justify-content-between " >
-			<div class=" col-md-5" style="padding:0;">
+	<div class="container" style="padding-top:50px;">
+
+		<div class="row justify-content-between ">
+			<div class=" col-md-5" >
 				<img src="images/air.png" class="img-responsive" alt="img">
 			</div>
-			<div class="col-md-6 align-content-center" >
-				<div >
+			<div class="col-md-6 mt-md-0 mt-4 align-content-center">
+				<div>
 					<h2>Airport Runways</h2>
 					<p style="color:#000;">A runway is the most important part of any airport. Runways can be unpaved, gravel, asphalt or concrete. Unpaved runways cannot be operated in rainy weather, making the use of such facilities quite limited. To make top layer, a mix of gravel (19mm max size) and polymer-modified bitumen was used. Using such binding is required to make the runway more resistant to rutting in hot weather.</p>
 				</div>
