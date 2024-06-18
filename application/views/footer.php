@@ -406,7 +406,7 @@ defined('BASEPATH') or exit('No direct script access allowed');
                     target="_blank" class="fab fa-linkedin-in rounded-icon bg-icon fs-16" title="linkedin"></a>
                 <a href="https://www.instagram.com/premium_petro_products/" rel="noopener noreferrer" target="_blank"
                     class="fab fa-instagram rounded-icon bg-icon fs-16" title="instagram"></a>
-                <div class="fw-divider-space divider-xl-160 divider-lg-130 divider-md-60 divider-30"></div>
+              
             </div>
 
             <div class="col-lg-4 col-md-12 ls order-3 order-lg-2 footer-special-column text-center animate"
@@ -528,7 +528,7 @@ defined('BASEPATH') or exit('No direct script access allowed');
 
                     </ul>
                 </div>
-                <div class="fw-divider-space divider-xl-160 divider-lg-130 divider-md-60 divider-30"></div>
+              
             </div>
         </div>
     </div>
