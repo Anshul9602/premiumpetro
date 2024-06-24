@@ -255,7 +255,7 @@ defined('BASEPATH') or exit('No direct script access allowed');
 <section class="ls s-py-xl-160 s-py-lg-130 s-py-md-90 s-py-60">
 	<div class="container pt-md-5 mt-md-5  pb-md-5 " >
 		<div class="row " style='margin:0!important;justify-content: space-between;'>
-			<div class="col-md-6 text-start" >
+			<div class="col-md-6 text-start order-md-0 order-1 mt-md-0 mt-4" >
 				<h2 class="special-heading text-start">
 					<span class="text-capitalize" style="color:#000000;">
 						WHO WE ARE
@@ -288,7 +288,7 @@ defined('BASEPATH') or exit('No direct script access allowed');
 					class="btn btn-gradient medium-btn" href="<?php echo base_url() ?>aboutus">Download Brochure</a>
 
 			</div>
-			<div class="col-md-5 mt-md-0 mt-3" >
+			<div class="col-md-5 mt-md-0 mt-3 order-md-1 order-0" >
 				<img src="assets/img/who_we.png" alt="" width="100%">
 
 			</div>
@@ -387,7 +387,8 @@ defined('BASEPATH') or exit('No direct script access allowed');
 <section class="ls s-py-xl-160 text-sm-left text-center s-py-lg-130 s-py-md-90 s-py-60 c-gutter-60" id="our-reach" style="background-color: #F0F3F6;">
 	<div class="row pt-5  pr-0 pl-0 ml-md-5 ml-3 p-0" >
 		<div class="col-md-5 col-6 text-center pr-0">
-			<h1 class="special-heading text-sm-left text-start cust_f" style="font-size: 120px;">
+			<h1 class="special-heading text-sm-left text-start cust_f" style="font-size: 120px;color:
+#0F4468;">
 				<span class="text-capitalize">
 					Our Reach
 				</span>
@@ -403,8 +404,8 @@ defined('BASEPATH') or exit('No direct script access allowed');
 	<div class="container pt-md-5  pb-md-5 " >
 		<div class="row" style='margin:0!important;'>
 			
-			<div class="col-md-12">
-				<div class="fw-divider-space divider-30"></div>
+			<div class="col-md-12 p-0">
+			
 				<img src="<?php echo base_url('images/Map.png'); ?>" alt="img" style="width:100%; max-width:900px;">
 			</div>
 

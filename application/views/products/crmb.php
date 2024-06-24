@@ -15,8 +15,7 @@ defined('BASEPATH') or exit('No direct script access allowed');
 	<!--[if IE]>
 		<meta http-equiv="X-UA-Compatible" content="IE=edge">
 	<![endif]-->
-	<meta name="description"
-		content="Crumb Rubber Modified Bitumen at Best Price & Quality - Developed an Innovative Product Using end-of-life Crumb Rubber to Improve Bitumen Performance.">
+	<meta name="description" content="Crumb Rubber Modified Bitumen at Best Price & Quality - Developed an Innovative Product Using end-of-life Crumb Rubber to Improve Bitumen Performance.">
 	<meta name="keywords" content="crumb rubber modified bitumen">
 	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 	<meta name="format-detection" content="telephone=no">
@@ -40,7 +39,7 @@ defined('BASEPATH') or exit('No direct script access allowed');
 
 	<!-- Google Tag Manager -->
 	<script>
-		(function (w, d, s, l, i) {
+		(function(w, d, s, l, i) {
 			w[l] = w[l] || [];
 			w[l].push({
 				'gtm.start': new Date().getTime(),
@@ -78,8 +77,7 @@ defined('BASEPATH') or exit('No direct script access allowed');
 	<meta property="og:image" content="https://premiumpetro.in/images/products/crumb-rubber-modified-bitumen.jpg" />
 	<meta property="og:site_name" content="https://premiumpetro.in/crumb-rubber-modified-bitumen" />
 	<meta property="fb:admins" content="108892197519623" />
-	<meta property="og:description"
-		content="Crumb Rubber Modified Bitumen at Best Price & Quality - Developed an Innovative Product Using end-of-life Crumb Rubber to Improve Bitumen Performance." />
+	<meta property="og:description" content="Crumb Rubber Modified Bitumen at Best Price & Quality - Developed an Innovative Product Using end-of-life Crumb Rubber to Improve Bitumen Performance." />
 
 	<!-- Twitter meta card -->
 
@@ -87,8 +85,7 @@ defined('BASEPATH') or exit('No direct script access allowed');
 	<meta name="twitter:site" content="@PetroPremium" />
 	<meta name="twitter:creator" content="@PetroPremium">
 	<meta name="twitter:title" content="Crumb Rubber Modified Bitumen at Best Price & Quality" />
-	<meta name="twitter:description"
-		content="Crumb Rubber Modified Bitumen at Best Price & Quality - Developed an Innovative Product Using end-of-life Crumb Rubber to Improve Bitumen Performance." />
+	<meta name="twitter:description" content="Crumb Rubber Modified Bitumen at Best Price & Quality - Developed an Innovative Product Using end-of-life Crumb Rubber to Improve Bitumen Performance." />
 	<meta name="twitter:image" content="https://premiumpetro.in/images/products/crumb-rubber-modified-bitumen.jpg" />
 	<meta name="twitter:url" content="https://premiumpetro.in/crumb-rubber-modified-bitumen" />
 	<meta name="twitter:label1" content="Crumb Rubber Modified Bitumen">
@@ -124,8 +121,7 @@ defined('BASEPATH') or exit('No direct script access allowed');
 <body>
 
 	<!-- Google Tag Manager (noscript) -->
-	<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-N5JQZSZ" height="0" width="0"
-			style="display:none;visibility:hidden"></iframe></noscript>
+	<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-N5JQZSZ" height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 	<!-- End Google Tag Manager (noscript) -->
 
 
@@ -159,11 +155,13 @@ defined('BASEPATH') or exit('No direct script access allowed');
 					color: #fff;
 					font-size: 14px;
 				}
+
 				.texts {
 					font-weight: 600;
 					font-size: 30px;
 					color: #09445a;
 				}
+
 				.txt {
 					font-weight: 500;
 					font-size: 20px;
@@ -176,22 +174,18 @@ defined('BASEPATH') or exit('No direct script access allowed');
 					<div class="d-md-flex justify-content-between align-items-center">
 						<div>
 							<ul style="list-style-type:none">
-								<li style="display:inline; margin-right:10px;"><a href="#"><i
-											class="fa fa-phone"></i>+91 8441095087
+								<li style="display:inline; margin-right:10px;"><a href="#"><i class="fa fa-phone"></i>+91 8441095087
 										<!--0141-2368580, 0141-4038580-->
 									</a></li>
-								<li style="display:inline; margin-right:10px;"><a href="#"><i
-											class="fa fa-envelope"></i>info@premiumpetro.in</a></li>
+								<li style="display:inline; margin-right:10px;"><a href="#"><i class="fa fa-envelope"></i>info@premiumpetro.in</a></li>
 								<!--<li><a href="#"><i class="fa fa-clock-o"></i>Mon - Sat 09:30 AM - 06:00 PM</a></li>-->
-								<li style="display:inline; margin-right:10px;"><a href="#"><i
-											class="fa fa-map-marker"></i>Jaipur, Rajasthan, India</a></li>
-								<li style="display:inline; margin-right:10px;"><a href="assets/PPP Company Profile.pdf"
-										download="" target="_blank" class="header_meta">
+								<li style="display:inline; margin-right:10px;"><a href="#"><i class="fa fa-map-marker"></i>Jaipur, Rajasthan, India</a></li>
+								<li style="display:inline; margin-right:10px;"><a href="assets/PPP Company Profile.pdf" download="" target="_blank" class="header_meta">
 										<i class="fa fa-download"></i>
 										Brochure
 									</a></li>
 								<li style="display:inline; margin-right:10px;"><a href="<a href=" <?php echo base_url()
-										. $pricefile['link'] ?>" download="" target="_blank" class="header_meta">
+																										. $pricefile['link'] ?>" download="" target="_blank" class="header_meta">
 										<i class="fa fa-download"></i>
 										Prices
 									</a></li>
@@ -199,20 +193,13 @@ defined('BASEPATH') or exit('No direct script access allowed');
 						</div>
 						<div class="d-none d-md-block">
 							<ul style="list-style-type:none">
-								<li style="display:inline; margin-right:10px;"><a
-										href="https://www.facebook.com/premiumpetroproducts" target="_blank"><i
-											class="fab fa-facebook" style="font-size:20px;" aria-hidden="true"></i></a>
+								<li style="display:inline; margin-right:10px;"><a href="https://www.facebook.com/premiumpetroproducts" target="_blank"><i class="fab fa-facebook" style="font-size:20px;" aria-hidden="true"></i></a>
 								</li>
 
-								<li style="display:inline; margin-right:10px;"><a
-										href="https://www.instagram.com/premium_petro_products/" target="_blank"><i
-											class="fab fa-instagram" style="font-size:20px;" aria-hidden="true"></i></a>
+								<li style="display:inline; margin-right:10px;"><a href="https://www.instagram.com/premium_petro_products/" target="_blank"><i class="fab fa-instagram" style="font-size:20px;" aria-hidden="true"></i></a>
 								</li>
 
-								<li style="display:inline; margin-right:10px;"><a
-										href="https://www.linkedin.com/company/premium-petro-products/"
-										target="_blank"><i class="fab fa-linkedin" style="font-size:20px;"
-											aria-hidden="true"></i></a></li>
+								<li style="display:inline; margin-right:10px;"><a href="https://www.linkedin.com/company/premium-petro-products/" target="_blank"><i class="fab fa-linkedin" style="font-size:20px;" aria-hidden="true"></i></a></li>
 							</ul>
 						</div>
 
@@ -245,55 +232,55 @@ defined('BASEPATH') or exit('No direct script access allowed');
 				<!--eof topline-->
 
 				<header class="page_header header-1 ds bg-transparent s-py-xl-20 s-py-10 ">
-
 					<div class="container-fluid">
 
 						<div class="row d-flex align-items-center justify-content-center">
-							<div class="col-xl-3 col-md-4 col-12 text-center">
+							<div class="col-xl-3 col-md-4 col-8 text-center">
 								<a href="./" class="logo" style="margin:0;">
-									<img style="width: 290px; max-height:none;"
-										src="<?php echo base_url(); ?>images/logo11.png" alt="img">
-
+									<img style="width: 290px; max-height:none;" src="<?php echo base_url(); ?>images/logo11.png" alt="img">
 								</a>
 							</div>
 							<div class="col-xl-6 col-1 text-right">
 								<!-- sain nav start -->
-								<nav class="top-nav">
-									<ul class="nav sf-menu">
+								<nav class="top-nav" style="">
+									<ul class="nav sf-menu sf-js-enabled sf-arrows" style="touch-action: pan-y;">
 
 
 										<li>
-											<a href="<?php echo base_url(); ?>">Home</a>
+											<a href="http://localhost/pre/">Home</a>
 
 										</li>
 
 										<li>
-											<a href="<?php echo base_url('aboutus'); ?>">About Us</a>
+											<a href="http://localhost/pre/aboutus">About Us</a>
 
 										</li>
 										<!-- eof pages -->
 
 										<li>
-											<a href="<?php echo base_url('products'); ?>">Products </a>
+											<a href="http://localhost/pre/products">Products </a>
 
 										</li>
 
 										<li>
-											<a href="<?php echo base_url('prices'); ?>">Prices </a>
+											<a href="http://localhost/pre/today-bitumen-prices-in-india">Prices
+											</a>
 
 										</li>
 
 										<!-- blog -->
 										<li>
-											<a href="<?php echo base_url('blog'); ?>">Blog</a>
+											<a href="http://localhost/pre/blog">Blog</a>
 
 										</li>
 
 
 
+
+
 										<!-- contacts -->
 										<li>
-											<a href="<?php echo base_url('contact'); ?>">Contact</a>
+											<a href="http://localhost/pre/contact">Contact</a>
 
 										</li>
 										<!-- eof contacts -->
@@ -303,12 +290,15 @@ defined('BASEPATH') or exit('No direct script access allowed');
 								</nav>
 								<!-- eof main nav -->
 							</div>
-
-							<span class="toggle_menu" style="right:0; color:#000;"><span>menu</span></span>
-
+							<div class=" col-3 text-right">
+								<!-- sain nav start -->
+								<span class="toggle_menu" style=" color:#000;top:0;"><span>menu</span></span>
+								<!-- eof main nav -->
+							</div>
 						</div>
 
 					</div>
+
 					<!-- header toggler -->
 
 				</header>
@@ -318,8 +308,7 @@ defined('BASEPATH') or exit('No direct script access allowed');
 
 
 
-			<section class="page_title ds s-parallax s-pb-xl-80  s-pb-lg-100  s-pb-md-90 s-pt-md-190 s-pt-180 s-pb-60"
-				style="background-image:url('<?php echo base_url() ?>images/Product-Page-Banner.jpg'); background-size:cover!important; background-repeat:no-repeat!important; background-position:center!important;">
+			<section class="page_title ds s-parallax s-pb-xl-80  s-pb-lg-100  s-pb-md-90 s-pt-md-190 s-pt-180 s-pb-60" style="background-image:url('<?php echo base_url() ?>images/Product-Page-Banner.jpg'); background-size:cover!important; background-repeat:no-repeat!important; background-position:center!important;">
 				<div class="container">
 					<div class="row">
 						<div class="col-md-12 text-center">
@@ -374,7 +363,7 @@ defined('BASEPATH') or exit('No direct script access allowed');
 						<div class="col-12 col-lg-6 text-center">
 							<div class="divider-35 hidden-above-lg"></div>
 							<div class="divider--5"></div>
-							<p style="text-align: justify; line-height: 34px;">
+							<p style="text-align: justify; line-height: 28px;">
 								CRMB is used worldwide for the improvement of binder characteristics for use in wearing
 								courses of
 								flexible pavements. CRMB is prepared by the addition of reclaimed truck tires further
@@ -390,12 +379,11 @@ defined('BASEPATH') or exit('No direct script access allowed');
 							</p>
 						</div>
 						<div class="col-lg-6">
-							<img src="<?php echo base_url() ?>images/products/crumb-rubber-modified-bitumen.jpg"
-								alt="crumb rubber modified bitumen">
+							<img src="<?php echo base_url() ?>images/products/crumb-rubber-modified-bitumen.jpg" alt="crumb rubber modified bitumen">
 						</div>
 
 						<div class="col-md-12 pt-1 ">
-							<p style="text-align: justify; line-height: 34px;">
+							<p style="text-align: justify; line-height: 28px;">
 								This adequately demonstrates that CRMB is
 								a superior binder which has immense application in highly trafficked National and State
 								Highways of India.Crumb Rubber can be added to the bituminous mixtures as a filler i.e., Dry Process.
@@ -420,7 +408,7 @@ defined('BASEPATH') or exit('No direct script access allowed');
 
 							</p>
 
-							<p style="text-align: justify; line-height: 34px;">
+							<p style="text-align: justify; line-height: 28px;">
 								<b>SIGNIFICANCE:</b> <br>
 								The most remarkable aspect of CRMB is that it produces an environment friendly product.
 								CRMB offers
@@ -457,7 +445,7 @@ defined('BASEPATH') or exit('No direct script access allowed');
 
 							<p>
 
-							> CRMB reduces deformation on road, specifically true at elevated temperature (50℃ to
+								> CRMB reduces deformation on road, specifically true at elevated temperature (50℃ to
 								70℃), where
 								rutting is excessive.
 								<br>
@@ -473,26 +461,26 @@ defined('BASEPATH') or exit('No direct script access allowed');
 								penetration grade 60/70 - 80/100 Bitumen.
 								<br>
 								<br>
-								
+
 
 							</p>
 
 						</div>
 
 						<div class="col-lg-6 col-12  d-flex align-items-center pl-5">
-							
-						> CRMB improves resistance to cracking resulting stronger and more durable overlays for
-								corridors in
-								the area of extreme climatic conditions and heavy traffic loads.
 
-								<br>
-								<br>
-								> It promotes binder adhesion and cohesion to mineral aggregates.
-								<br>
-								<br>
-								> The striping level and reviling of aggregate from surface are reduced and offer
-								resistant to creep
-								deformation
+							> CRMB improves resistance to cracking resulting stronger and more durable overlays for
+							corridors in
+							the area of extreme climatic conditions and heavy traffic loads.
+
+							<br>
+							<br>
+							> It promotes binder adhesion and cohesion to mineral aggregates.
+							<br>
+							<br>
+							> The striping level and reviling of aggregate from surface are reduced and offer
+							resistant to creep
+							deformation
 
 
 
@@ -511,12 +499,12 @@ defined('BASEPATH') or exit('No direct script access allowed');
 			<section style="padding-bottom:200px;">
 				<div class="container">
 					<div class="row">
-						<div class="col-12">
+						<div class="col-12" style="width: 100%; overflow:scroll;">
 							<table>
 								<thead>
 									<tr>
-									<td  class="texts">Characteristics</td>
-										<td  class="texts">VG-10</td>
+										<td class="texts">Characteristics</td>
+										<td class="texts">VG-10</td>
 									</tr>
 									<tr>
 										<td></td>

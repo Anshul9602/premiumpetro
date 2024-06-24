@@ -21,7 +21,8 @@ defined('BASEPATH') or exit('No direct script access allowed');
 	}
 
 	.tarns .card img {
-		width: 150px;
+		
+		height: 160px;
 	}
 
 	.icon-styled i {
@@ -55,9 +56,9 @@ defined('BASEPATH') or exit('No direct script access allowed');
 	}
 
 	.supply-chain-img {
-		width: 26%;
+		width: auto;
 		align-self: center;
-		padding: 20px;
+		padding: 5px;
 	}
 
 	.transport-card-body {
@@ -238,7 +239,7 @@ defined('BASEPATH') or exit('No direct script access allowed');
 				<div class="icon-box service-single with-icon layout2 ds text-center">
 
 					<div class="icon-styled  fs-50">
-						<i class="fas fa-plane"></i>
+						<img src="assets/1.png" alt="">
 					</div>
 
 
@@ -254,7 +255,7 @@ defined('BASEPATH') or exit('No direct script access allowed');
 				<div class="icon-box service-single with-icon layout2 ds text-center">
 
 					<div class="icon-styled  fs-50">
-						<i class="fas fa-shipping-fast"></i>
+					<img src="assets/2.png" alt="">
 					</div>
 
 
@@ -270,7 +271,7 @@ defined('BASEPATH') or exit('No direct script access allowed');
 				<div class="icon-box service-single with-icon layout2 ds text-center">
 
 					<div class="icon-styled  fs-50">
-						<i class="fas fa-clock"></i>
+					<img src="assets/3.png" alt="">
 					</div>
 
 					<h5>
@@ -285,7 +286,7 @@ defined('BASEPATH') or exit('No direct script access allowed');
 				<div class="icon-box service-single with-icon layout2 ds text-center">
 
 					<div class="icon-styled  fs-50">
-						<i class="fas fa-heart"></i>
+					<img src="assets/4.png" alt="">
 					</div>
 
 
@@ -580,43 +581,44 @@ defined('BASEPATH') or exit('No direct script access allowed');
 	<div class="container" style="padding-bottom:20px; padding-top:50px;">
 
 		<div class="row justify-content-between">
-			<div class="col-md-5 text-center mt-3">
+			<div class="col-md-5 text-center mt-3 order-md-0 order-0">
 				<img src="images/roads/road1.png" class="card-img-top" alt="..." style="width:100%">
 			</div>
-			<div class="col-md-6 mt-md-3 mt-4" style="    align-items: center;    display: flex;">
+			<div class="col-md-6 mt-md-3 mt-4 order-md-1 order-1" style="    align-items: center;    display: flex;">
 				<div>
 					<h2>National Highways</h2>
 					<p style="color:#000;">The National highways in India are a network of trunk roads owned by the Ministry of Road Transport and Highways. They connect important cities, towns, ports etc. of different states. They may even connect the neighbouring countries. Most of the existing highways are now four-lane roads, much of this is being expanded to six or more lanes. National Highways constitute 2.7% of India's total road network.</p>
 				</div>
 			</div>
-			<div class="divider-50 hidden-above-lg"></div>
-			<div class="col-md-6 mt-3 " style="    align-items: center;    display: flex;">
+
+			
+			<div class="col-md-6 mt-md-3 mt-5 order-md-2 order-3" style="    align-items: center;    display: flex;">
 				<div>
 					<h2>State Highways</h2>
 					<p style="color:#000;">This is the network of roads maintained by the state governments. These roads are constructed and managed by the states' Public Works Department. The state highways are usually roads that link important cities, towns and district headquarters within the state and connect them with National Highways or State Highways of neighbouring states.</p>
 				</div>
 			</div>
-			<div class="col-md-5 text-center mt-md-3 mt-4">
+			<div class="col-md-5 text-center mt-md-3 mt-4 order-md-3 order-2">
 				<img src="images/roads/road2.png" class="card-img-top" alt="..." style="width:100%">
 			</div>
-			<div class="divider-50 hidden-above-lg"></div>
-			<div class="col-md-5 text-center mt-3">
+			
+			<div class="col-md-5 text-center mt-md-3 mt-5 order-md-4 order-4">
 				<img src="images/roads/road3.png" class="card-img-top" alt="..." style="width:100%">
 			</div>
-			<div class="col-md-6 mt-md-3 mt-4" style="    align-items: center;    display: flex;">
+			<div class="col-md-6 mt-md-3 mt-4 order-md-5 order-5" style="    align-items: center;    display: flex;">
 				<div>
 					<h2>Major District Roads</h2>
 					<p style="color:#000;">These are the roads within a district connecting market and production areas to state or national Highways or railways stations. The MDR has lower speed and geometric design specifications than National Highways or State Highways.</p>
 				</div>
 			</div>
-			<div class="divider-50 hidden-above-lg"></div>
-			<div class="col-md-6 mt-3" style="    align-items: center;    display: flex;">
+		
+			<div class="col-md-6 mt-md-3 mt-5 order-md-6 order-7" style="    align-items: center;    display: flex;">
 				<div>
 					<h2>Other District Roads</h2>
 					<p style="color:#000;">These roads connect rural areas of production to market centres, or other main roads. These roads have lower design specifications than Major District Roads. These roads are looked after by district authorities with the help of State Government Departments. They are also known as Minor District Roads.</p>
 				</div>
 			</div>
-			<div class="col-md-5 text-center mt-md-3 mt-4">
+			<div class="col-md-5 text-center mt-md-3 mt-4 order-md-7 order-6">
 				<img src="images/roads/road4.png" class="card-img-top" alt="..." style="width:100%">
 			</div>
 

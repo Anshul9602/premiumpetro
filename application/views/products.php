@@ -27,6 +27,12 @@ defined('BASEPATH') or exit('No direct script access allowed');
 		transition: 2.5s ease;
 		cursor: pointer;
 	}
+	@media (max-width: 768px) {
+		.ttte .row{
+			margin-top: 30px !important;
+		
+		}
+	}
 </style>
 <section class="page_title ds  s-pb-xl-80  s-pb-lg-100  s-pb-md-90 s-pt-md-250 s-pt-180 s-pb-60"
 	style="background-image:url('images/Product-Page-Banner_2.jpg'); background-size:cover!important; background-repeat:no-repeat!important; ">
@@ -58,7 +64,7 @@ defined('BASEPATH') or exit('No direct script access allowed');
 	<div class="container ttte">
 		<div class="col-12">
 			<p class="text-center">
-				<span style="font-size:18px; font-wieght:bold;">
+				<span style="font-size:16px; font-weight:bold;">
 					We supply Viscosity Grade Bitumen compliant to mandatory requirements of IRC/BIS/BSR etc.
 				</span>
 			</p>
@@ -67,7 +73,7 @@ defined('BASEPATH') or exit('No direct script access allowed');
 		<div class="row">
 
 
-			<div class="col-md-6">
+			<div class="col-md-6 mt-md-0 mt-4 order-md-1 order-2">
 				<div class="step-wrap__text special-heading">
 					<h4>
 						<a href="<?php echo base_url() ?>products/bitumen-vg-10-price">VG-10</a>
@@ -83,7 +89,7 @@ defined('BASEPATH') or exit('No direct script access allowed');
 					</a>
 				</div>
 			</div>
-			<div class="col-md-4 mt-md-3">
+			<div class="col-md-4 mt-md-3 order-md-2 order-1">
 				<div style="    border-radius: 20px; overflow: hidden;">
 					<img src="<?php echo base_url() ?>images/products/bitumen-vg-10.jpg" alt="img">
 				</div>
@@ -99,7 +105,7 @@ defined('BASEPATH') or exit('No direct script access allowed');
 				</div>
 
 			</div>
-			<div class="col-md-6 ">
+			<div class="col-md-6 mt-md-0 mt-4">
 				<div class="step-wrap__text">
 					<h4>
 						<a href="<?php echo base_url() ?>products/bitumen-vg-30-price">VG-30</a>
@@ -116,7 +122,7 @@ defined('BASEPATH') or exit('No direct script access allowed');
 		</div>
 		<div class="row">
 
-			<div class="col-md-6 ">
+			<div class="col-md-6 mt-md-0 mt-4 order-md-1 order-2">
 				<div class="step-wrap__text">
 					<h4>
 						<a href="<?php echo base_url() ?>products/bitumen-vg-40-price">VG-40</a>
@@ -130,7 +136,7 @@ defined('BASEPATH') or exit('No direct script access allowed');
 					</a>
 				</div>
 			</div>
-			<div class="col-md-4 mt-md-3">
+			<div class="col-md-4 mt-md-3 order-md-2 order-1">
 				<div style="    border-radius: 20px; overflow: hidden;">
 					<img src="<?php echo base_url() ?>images/products/bitumen-vg-40.jpg" alt="img">
 				</div>
@@ -140,13 +146,13 @@ defined('BASEPATH') or exit('No direct script access allowed');
 		<div class="row">
 
 
-			<div class="col-md-4 mt-md-3">
+			<div class="col-md-4  mt-4">
 				<div style="    border-radius: 20px; overflow: hidden;">
 					<img src="<?php echo base_url() ?>images/products/polymer-modified-bitumen.jpg" alt="img">
 				</div>
 
 			</div>
-			<div class="col-md-6 ">
+			<div class="col-md-6 mt-md-0 mt-4">
 				<div class="step-wrap__text">
 					<h4>
 						<a href="<?php echo base_url() ?>products/polymer-modified-bitumen-price">POLYMER
@@ -166,9 +172,7 @@ defined('BASEPATH') or exit('No direct script access allowed');
 		</div>
 		<div class="row">
 
-
-
-			<div class="col-md-6 ">
+			<div class="col-md-6 mt-md-0 mt-4 order-md-1 order-2">
 				<div class="step-wrap__text">
 					<h4>
 						<a href="<?php echo base_url() ?>products/crumb-rubber-modified-bitumen">CRUMB RUBBER
@@ -185,7 +189,7 @@ defined('BASEPATH') or exit('No direct script access allowed');
 					</a>
 				</div>
 			</div>
-			<div class="col-md-4 mt-md-3">
+			<div class="col-md-4 mt-md-3 order-md-2 order-1">
 				<div style="    border-radius: 20px; overflow: hidden;">
 					<img src="<?php echo base_url() ?>images/products/crumb-rubber-modified-bitumen.jpg" alt="img">
 				</div>
@@ -200,7 +204,7 @@ defined('BASEPATH') or exit('No direct script access allowed');
 				</div>
 
 			</div>
-			<div class="col-md-6 ">
+			<div class="col-md-6 mt-md-0 mt-4">
 				<div class="step-wrap__text">
 					<h4>
 						<a href="<?php echo base_url() ?>products/bitumen">BITUMEN EMULSION</a>

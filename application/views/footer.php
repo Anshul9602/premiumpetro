@@ -145,9 +145,14 @@ defined('BASEPATH') or exit('No direct script access allowed');
             max-width: 1144px;
         }
     }
+    @media only screen and (max-width: 992px) {
+        .pbb-ff {
+            padding-bottom:20px !important;
+        }
+    }
 </style>
 <hr>
-<section class="py-60" style="padding-bottom:160px;">
+<section class="py-60 pbb-ff" style="padding-bottom:160px;">
 
     <div class="container text-control-1 faqq">
         <h3 class="text-center mb-4">FAQs</h3>
@@ -469,7 +474,7 @@ defined('BASEPATH') or exit('No direct script access allowed');
                         </div>
                     </form>
                 </div>
-                <h6 class="fs-12 text-uppercase">&copy; Copyright <span class="copyright_year">2021</span>
+                <h6 class="fs-12 text-uppercase">&copy; Copyright <span class="copyright_year">2024</span>
                     All Rights Reserved</h6>
 
                 <h6 class="fs-12 text-uppercase" style="margin-top:15px!important; font-weight:initial">Designed by <a

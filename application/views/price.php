@@ -101,7 +101,7 @@ font-size: 18px;
 			</span>
 		</h5>
 		<div class="row">
-			<div class="col-12">
+			<div class="col-12" style="width: 100%; overflow:scroll;">
 				<table>
 					<thead>
 						<tr>
@@ -165,7 +165,7 @@ font-size: 18px;
 			</span>
 		</h5>
 		<div class="row">
-			<div class="col-12">
+			<div class="col-12"style="width: 100%; overflow:scroll;">
 				<table>
 					<thead>
 						<tr>
@@ -229,7 +229,7 @@ font-size: 18px;
 			</span>
 		</h5>
 		<div class="row">
-			<div class="col-12">
+			<div class="col-12"style="width: 100%; overflow:scroll;">
 				<table>
 					<thead>
 						<tr>

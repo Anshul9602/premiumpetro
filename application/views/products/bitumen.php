@@ -287,54 +287,55 @@ defined('BASEPATH') or exit('No direct script access allowed');
 
 				<header class="page_header header-1 ds bg-transparent s-py-xl-20 s-py-10 ">
 
-					<div class="container-fluid">
+				<div class="container-fluid">
 
 						<div class="row d-flex align-items-center justify-content-center">
-							<div class="col-xl-3 col-md-4 col-12 text-center">
+							<div class="col-xl-3 col-md-4 col-8 text-center">
 								<a href="./" class="logo" style="margin:0;">
-									<img style="width: 290px; max-height:none;"
-										src="<?php echo base_url(); ?>images/logo11.png" alt="img">
-
+									<img style="width: 290px; max-height:none;" src="<?php echo base_url(); ?>images/logo11.png" alt="img">
 								</a>
 							</div>
 							<div class="col-xl-6 col-1 text-right">
 								<!-- sain nav start -->
-								<nav class="top-nav">
-									<ul class="nav sf-menu">
+								<nav class="top-nav" style="">
+									<ul class="nav sf-menu sf-js-enabled sf-arrows" style="touch-action: pan-y;">
 
 
 										<li>
-											<a href="<?php echo base_url(); ?>">Home</a>
+											<a href="http://localhost/pre/">Home</a>
 
 										</li>
 
 										<li>
-											<a href="<?php echo base_url('aboutus'); ?>">About Us</a>
+											<a href="http://localhost/pre/aboutus">About Us</a>
 
 										</li>
 										<!-- eof pages -->
 
 										<li>
-											<a href="<?php echo base_url('products'); ?>">Products </a>
+											<a href="http://localhost/pre/products">Products </a>
 
 										</li>
 
 										<li>
-											<a href="<?php echo base_url('prices'); ?>">Prices </a>
+											<a href="http://localhost/pre/today-bitumen-prices-in-india">Prices
+											</a>
 
 										</li>
 
 										<!-- blog -->
 										<li>
-											<a href="<?php echo base_url('blog'); ?>">Blog</a>
+											<a href="http://localhost/pre/blog">Blog</a>
 
 										</li>
 
 
 
+
+
 										<!-- contacts -->
 										<li>
-											<a href="<?php echo base_url('contact'); ?>">Contact</a>
+											<a href="http://localhost/pre/contact">Contact</a>
 
 										</li>
 										<!-- eof contacts -->
@@ -344,9 +345,11 @@ defined('BASEPATH') or exit('No direct script access allowed');
 								</nav>
 								<!-- eof main nav -->
 							</div>
-
-							<span class="toggle_menu" style="right:0; color:#000;"><span>menu</span></span>
-
+							<div class=" col-3 text-right">
+								<!-- sain nav start -->
+								<span class="toggle_menu" style=" color:#000;top:0;"><span>menu</span></span>
+								<!-- eof main nav -->
+							</div>
 						</div>
 
 					</div>
@@ -415,7 +418,7 @@ defined('BASEPATH') or exit('No direct script access allowed');
 						<div class="col-12 col-lg-6 text-center">
 							<div class="divider-35 hidden-above-lg"></div>
 							<div class="divider--5"></div>
-							<p style="text-align: justify; line-height: 34px;">
+							<p style="text-align: justify; line-height: 28px;">
 								Introducing our Bitumen Emulsion – the ultimate solution for all your surfacing needs.
 								Specially formulated to deliver exceptional performance in a variety of applications,
 								our bitumen emulsion is designed to provide superior adhesion, durability, and

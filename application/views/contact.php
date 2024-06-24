@@ -1,6 +1,18 @@
 <?php
 defined('BASEPATH') or exit('No direct script access allowed');
 ?>
+
+
+<style>
+@media (max-width:600px){
+	.icon-styled i {
+		width: 1em !important;
+		font-size: 25px !important;
+	}
+}
+
+</style>
+
 <section class="page_title ds s-parallax s-pb-xl-80  s-pb-lg-100  s-pb-md-90 s-pt-md-250 s-pt-180 s-pb-60" style="background-image:url('images/Contact-Us-Page-Banner.jpg'); background-size:cover!important; background-repeat:no-repeat!important; background-position:center!important; background-attachment:scroll;">
     <div class="container">
         <div class="row">
@@ -86,7 +98,7 @@ defined('BASEPATH') or exit('No direct script access allowed');
 								<div class="form-group has-placeholder">
 									<label for="message335553">Message</label>
 									<i class="fas fa-edit"></i>
-									<textarea aria-required="true" rows="8" cols="45" name="message" id="message335553" class="form-control" placeholder="Your Message"></textarea>
+									<textarea aria-required="true" rows="4" cols="45" name="message" id="message335553" class="form-control" placeholder="Your Message"></textarea>
 								</div>
 							</div>
 						</div>

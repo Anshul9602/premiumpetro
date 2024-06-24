@@ -150,6 +150,13 @@ defined('BASEPATH') or exit('No direct script access allowed');
 		<script src="js/vendor/jquery-1.12.4.min.js"></script>
 	<![endif]-->
 	<style>
+		 @media (max-width: 575px) {
+    .page_title h1, .page_title h2 {
+        font-size: 21px !important;
+        text-align: center;
+		line-height: 1.5;
+    }
+}
 		p {
 			margin-top: 0 !important;
 			margin-bottom: 1rem !important;
