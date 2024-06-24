@@ -135,7 +135,7 @@ defined('BASEPATH') or exit('No direct script access allowed');
 			<!--topline section visible only on small screens|-->
 			<style>
 				.top-bar .fa {
-					color: #dd4454;
+					color: #09445a;
 					margin-right: 5px;
 				}
 

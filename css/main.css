@@ -585,7 +585,7 @@ ul.list-styled li:before {
 }
 
 .ls .breadcrumb>.active {
-    color: #999;
+    color: #000;
     font-weight: 500
 }
 
@@ -11829,7 +11829,8 @@ body.boxed {
 
 .ls {
     background-color: #fff;
-    color: #999
+    color: #000
+    
 }
 
 .ls input[type=text],
@@ -12168,7 +12169,7 @@ body.boxed {
 }
 
 .ds * .ds {
-    background-color: #073243
+    background-color: #09202F;
 }
 
 .ds .special-heading span.sub-title {
@@ -12468,7 +12469,7 @@ body.boxed {
     background-color: #09202F
 }
 
-.ds {}
+
 
 .ds .list-bordered li {
     border-color: #fff

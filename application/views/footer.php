@@ -43,7 +43,7 @@ defined('BASEPATH') or exit('No direct script access allowed');
 
     .q-mark {
         font-weight: bold;
-        color: #dd9044;
+        color: #09445a;
         padding: 18px 0 18px 18px;
     }
 
@@ -66,7 +66,7 @@ defined('BASEPATH') or exit('No direct script access allowed');
 
     .answer {
         font-size: 14px;
-        color: #5c5c5c;
+        color: #000;
         padding: 16px;
         padding-left: 52px;
         padding-bottom: 32px;
@@ -76,7 +76,7 @@ defined('BASEPATH') or exit('No direct script access allowed');
 
     .accordion {
         background-color: #fff;
-        color: #444;
+        color: #000;
         cursor: pointer;
         width: 100%;
         margin-bottom: 15px;
@@ -374,13 +374,6 @@ defined('BASEPATH') or exit('No direct script access allowed');
         border-bottom: 1px solid #000;
     }
 </style>
-
-
-
-<script>
-
-</script>
-
 
 
 <footer class="page_footer  text-center c-gutter-100 text-sm-left  ds">
