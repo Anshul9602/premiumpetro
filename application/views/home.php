@@ -143,6 +143,25 @@ defined('BASEPATH') or exit('No direct script access allowed');
 		<ul style="min-height:95vh" class="slides">
 
 			<li class="ds cover-image">
+				<img src="assets/img/main-1.png" alt="img">
+				<div class="container-fluid">
+					<div class="row">
+						<div class="col-md-12">
+							<div class="intro_layers_wrapper">
+								<div class="intro_layers">
+									<div class="intro_layer">
+										<h2 class="text-capitalize intro_featured_word" style='font-weight:400;'>
+										Quality Management System
+										</h2>
+										<a href="<?php echo base_url() ?>contact" class="btn btn-outline-darkgrey big-btn">get a quote</a>
+									</div>
+								</div> <!-- eof .intro_layers -->
+							</div> <!-- eof .intro_layers_wrapper -->
+						</div> <!-- eof .col-* -->
+					</div><!-- eof .row -->
+				</div><!-- eof .container-fluid -->
+			</li>
+			<li class="ds cover-image">
 				<img src="assets/img/Banner-1-min.webp" alt="img">
 				<div class="container-fluid">
 					<div class="row">
